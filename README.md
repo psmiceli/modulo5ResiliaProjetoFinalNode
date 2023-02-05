@@ -50,9 +50,9 @@ implementar uma dessas entidades.</h4>
 <h2>Como abrir o projeto❓</h2><br>
 <h3>Você precisará instalar os seguintes pacotes:</h3><br>
 
-⇨express: npm install express<br>
-⇨axios: npm install axios<br>
-⇨readline: npm install readline
+➤ express: npm install express<br>
+➤ axios: npm install axios<br>
+➤ readline: npm install readline
 
 <h3>Em seguida execute o projeto:</h3>
 node app.js
