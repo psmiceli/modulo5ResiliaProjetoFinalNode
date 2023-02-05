@@ -38,7 +38,7 @@ implementar uma dessas entidades.</h4>
 <h2>Mapeamento das Entidades</h2>
 
 <h3>Produto:</h3><br>
-- <h4>Monitor</h4>
+-<h4>Monitor</h4>
 - <h4>Placa de vídeo</h4>
 - <h4>dispositivo de armazenamento
 - <h4>Teclado</h4>
