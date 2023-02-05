@@ -31,10 +31,9 @@ definir quais são as entidades que o projeto precisa
 contemplar e cada um de vocês será responsável por
 implementar uma dessas entidades.</h4>
 
-<h2>Loja de informática</h2>
+<h2>Loja de informática</h2><br>
 
-
-
+![image](https://user-images.githubusercontent.com/56053290/216841605-304112c1-3aa1-481b-8544-ef54a783f10e.png)
 
 <h2>Mapeamento das Entidades</h2>
 
