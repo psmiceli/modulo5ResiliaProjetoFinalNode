@@ -22,7 +22,7 @@ async function createRecord() {
   });
 
 
-  return axios.post('http://localhost:3000/posts', {title, body, valor });
+  return axios.post('http://localhost:3000/produtos', {title, body, valor });
 }
 
 async function readRecord() {
@@ -30,7 +30,7 @@ async function readRecord() {
     readline.question('Buscar produto: ', resolve);
   });
 
-  return axios.get(`http://localhost:3000/posts/${id}`);
+  return axios.get(`http://localhost:3000/produtos/${id}`);
 }
 
 async function updateRecord() {
@@ -50,7 +50,7 @@ async function updateRecord() {
     readline.question('Digite o valor do produto: ', resolve);
   });
 
-  return axios.put(`http://localhost:3000/posts/${id}`, {title, body, valor });
+  return axios.put(`http://localhost:3000/produtos/${id}`, {title, body, valor });
 }
 
 async function deleteRecord() {
@@ -58,11 +58,11 @@ async function deleteRecord() {
     readline.question('Digite o ID do produto que deseja excluir: ', resolve);
   });
 
-  return axios.delete(`http://localhost:3000/posts/${id}`);
+  return axios.delete(`http://localhost:3000/produtos/${id}`);
 }
 
 async function showRecords() {
-  return axios.get(`http://localhost:3000/posts`)
+  return axios.get(`http://localhost:3000/produtos`)
     .then(response => {
       console.log(response.data);
     });

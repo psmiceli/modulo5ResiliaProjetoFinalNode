@@ -52,9 +52,7 @@ implementar uma dessas entidades.</h4>
 
 ➤ express: npm install express<br>
 ➤ axios: npm install axios<br>
-➤ readline: npm install readline<br>
-➤ json-server: npm install -g json-server
+➤ readline: npm install readline
 
 <h3>Em seguida execute o projeto:</h3>
-➤json-server --watch db.json<br>
 ➤node app.js
