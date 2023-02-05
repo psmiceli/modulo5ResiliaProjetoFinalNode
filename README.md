@@ -26,6 +26,22 @@ Utilizar o padrão MVC;<br>
 ⇨ Utilização de async/await para operações no banco (DAO)<br>
 ⇨ Ter o código fonte hospedado em um repositório no Github.<br>
 
+<h4>Nesse projeto você e sua squad serão responsáveis por
+definir quais são as entidades que o projeto precisa
+contemplar e cada um de vocês será responsável por
+implementar uma dessas entidades.</h4>
+
+<h2>Loja de informática</h2>
+
+
+
+
+<h2>Mapeamento das Entidades</h2>
+
+-
+-
+-
+-
 
 <h2>Frameworks utilizados no projeto:</h2><br>
 ⇨Axios<br>⇨Json-server
