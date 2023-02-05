@@ -1,7 +1,7 @@
 # Projeto final do curso Programadores Cariocas.<br> 
-Módulo 5 
-Plataforma:NoteJS
-Software: VSCode, Node.js
+Módulo 5<br> 
+Plataforma:NoteJS<br>
+Software: VSCode, Node.js<br>
 
 <h1>Introdução</h1>
 
@@ -19,14 +19,14 @@ Utilizar o padrão MVC;<br>
 
 
 <h2>Frameworks utilizados no projeto:</h2><br>
-**-Axios<br>-Json-server**
+-Axios<br>-Json-server
 
 <h2>Como abrir o projeto❓</h2><br>
 <h3>Você precisará instalar os seguintes pacotes:</h3><br>
 
-**express: npm install express**<br>
-**axios: npm install axios**<br>
-**readline: npm install readline**<br>
+express: npm install express<br>
+axios: npm install axios<br>
+readline: npm install readline
 
-<h3>Em seguida execute o projeto:</h3><br>
-**node app.js**
+<h3>Em seguida execute o projeto:</h3>
+node app.js
