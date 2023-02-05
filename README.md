@@ -48,7 +48,7 @@ implementar uma dessas entidades.</h4>
  ➤Axios<br>➤Json-server
 
 <h2>Como abrir o projeto❓</h2><br>
-<h3>🧩Você precisará instalar os seguintes pacotes:</h3><br>
+<h3>⚙️Você precisará instalar os seguintes pacotes:</h3><br>
 
 ➤ express: npm install express<br>
 ➤ axios: npm install axios<br>
