@@ -36,7 +36,7 @@ implementar uma dessas entidades.</h4>
 ![image](https://user-images.githubusercontent.com/56053290/216841605-304112c1-3aa1-481b-8544-ef54a783f10e.png)
 
 <h2>Mapeamento das Entidades</h2>
-<h3>Produtos:</h3>↴
+<h3>Produtos:↴</h3>
 
 - <h4>Monitor</h4>
 - <h4>Placa de vídeo</h4>
