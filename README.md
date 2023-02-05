@@ -55,6 +55,6 @@ implementar uma dessas entidades.</h4>
 ➤ readline: npm install readline<br>
 ➤ json-server: npm install -g json-server
 
-<h3>Em seguida execute o projeto:</h3
+<h3>Em seguida execute o projeto:</h3>
 ➤json-server --watch db.json<br>
 ➤node app.js (em outro terminal)
