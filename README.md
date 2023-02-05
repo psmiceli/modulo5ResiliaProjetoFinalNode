@@ -1,7 +1,7 @@
 # Projeto final do curso Programadores Cariocas.<br> 
 Módulo 5<br> 
 Plataforma:NoteJS<br>
-Software: ![image](https://user-images.githubusercontent.com/56053290/216840871-1286bd76-594e-4746-adcf-ce6da30acf7a.png), Node.js<br>
+Software:<br> ![image](https://user-images.githubusercontent.com/56053290/216840871-1286bd76-594e-4746-adcf-ce6da30acf7a.png)<br> ![image](https://user-images.githubusercontent.com/56053290/216840884-4673a562-ccf0-4168-b382-cbe8a13a8c8c.png)<br>
 
 <h1>Introdução</h1>
 
