@@ -9,6 +9,11 @@ Plataforma:NodeJS<br>
 
 <h1>Introdução</h1>
 
+<h4>Você e sua equipe foram escalados para desenvolverem
+propostas de APIs que serão o produto mínimo viável de um
+aplicativo.Vocês devem escolher o tema do aplicativo para
+identificar as entidades.</h4>
+
 Utilizar o padrão MVC;<br>
 ⇨ Utilizar os verbos HTTP seguindo o padrão REST;<br>
 ⇨ Implementar todas as operações de CRUD;<br>
