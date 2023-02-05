@@ -55,4 +55,4 @@ implementar uma dessas entidades.</h4>
 ➤ readline: npm install readline
 
 <h3>Em seguida execute o projeto:</h3>
-node app.js
+➤node app.js
