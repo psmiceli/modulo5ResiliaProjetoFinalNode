@@ -1,7 +1,7 @@
 # Projeto final do curso Programadores Cariocas.<br> 
 Módulo 5<br> 
 Plataforma:NoteJS<br>
-Software: VSCode, Node.js<br>
+Software: ![image](https://user-images.githubusercontent.com/56053290/216840871-1286bd76-594e-4746-adcf-ce6da30acf7a.png), Node.js<br>
 
 <h1>Introdução</h1>
 
