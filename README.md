@@ -56,4 +56,5 @@ implementar uma dessas entidades.</h4>
 ➤ json-server: npm install -g json-server
 
 <h3>Em seguida execute o projeto:</h3>
+➤json-server --watch db.json<br>
 ➤node app.js
