@@ -37,11 +37,11 @@ implementar uma dessas entidades.</h4>
 
 <h2>Mapeamento das Entidades</h2>
 
--<h4>Monitor</h4>
--<h4>Placa de vídeo</h4>
--<h4>dispositivo de armazenamento
--<h4>Teclado</h4>
--<h4>Mouse</h4>  
+- <h4>Monitor</h4>
+- <h4>Placa de vídeo</h4>
+- <h4>dispositivo de armazenamento
+- <h4>Teclado</h4>
+- <h4>Mouse</h4>  
 
 <h2>Frameworks utilizados no projeto:</h2><br>
 ⇨Axios<br>⇨Json-server
