@@ -1,8 +1,8 @@
 # Projeto final do curso Programadores Cariocas.<br> 
 Módulo 5<br> 
 Plataforma:NodeJS<br>
-<h3>Softwares:</h3><br></br> ![image](https://user-images.githubusercontent.com/56053290/216840967-4a5dbbac-c2f5-4ba8-a439-993039b37f59.png)
-![image](https://user-images.githubusercontent.com/56053290/216840884-4673a562-ccf0-4168-b382-cbe8a13a8c8c.png)<br>
+<h3>Softwares:</h3><br> ![image](https://user-images.githubusercontent.com/56053290/216840967-4a5dbbac-c2f5-4ba8-a439-993039b37f59.png)
+![image](https://user-images.githubusercontent.com/56053290/216840884-4673a562-ccf0-4168-b382-cbe8a13a8c8c.png)
 
 <h1>Introdução</h1>
 
