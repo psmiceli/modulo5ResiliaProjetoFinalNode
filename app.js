@@ -22,9 +22,18 @@ async function createRecord() {
   });
 
 
-  return axios.post('http://localhost:3000/produtos', {title, body, valor });
-}
+  let custo;
+  if(valor <= 400){
+    console.log("Este item tem baixo custo!");
+    custo = "Baixo";
+  } else {
+    custo = "Alto";
+  }
+  
+    
+  return axios.post('http://localhost:3000/produtos', {title, body, valor, custo });
 
+}
 async function readRecord() {
   const id = await new Promise(resolve => {
     readline.question('Buscar produto: ', resolve);
@@ -50,7 +59,11 @@ async function updateRecord() {
     readline.question('Digite o valor do produto: ', resolve);
   });
 
-  return axios.put(`http://localhost:3000/produtos/${id}`, {title, body, valor });
+  const custo = await new Promise(resolve => {
+    readline.question('Digite se é um produto de custo baixo ou alto: ', resolve);
+  });
+
+  return axios.put(`http://localhost:3000/produtos/${id}`, {title, body, valor, custo });
 }
 
 async function deleteRecord() {
@@ -66,6 +79,10 @@ async function showRecords() {
     .then(response => {
       console.log(response.data);
     });
+}
+
+async function closeTerminal() {
+  await readline.close();
 }
 
 async function showOptions() {
@@ -145,8 +162,9 @@ async function showOptions() {
       break;
 
       case '6':
-        readline.close();
+        closeTerminal();
         break;
+        
       default:
         console.log('Opção inválida, escolha novamente');
         return showOptions();
