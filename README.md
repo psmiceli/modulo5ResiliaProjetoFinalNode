@@ -42,7 +42,23 @@ implementar uma dessas entidades.</h4>
 - <h4>Placa de vídeo</h4>
 - <h4>dispositivo de armazenamento
 - <h4>Teclado</h4>
-- <h4>Mouse</h4>  
+- <h4>Pendrive</h4>  
+
+<h3>Entidade2:↴</h3>
+
+- 
+- 
+- 
+- 
+- 
+
+<h3>Entidade3↴</h3>
+
+- 
+- 
+- 
+- 
+-  
 
 
 
