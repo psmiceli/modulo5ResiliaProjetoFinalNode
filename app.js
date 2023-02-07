@@ -4,8 +4,14 @@ const readline = require('readline').createInterface({
   input: process.stdin,
   output: process.stdout
 });
-
 const app = express();
+
+app.use(express.json())
+
+const { produtoGet, produtoPost } = require ('./controller/produto-controller')
+produtoGet(app)
+produtoPost(app)
+
 
 async function createRecord() {
 
@@ -22,18 +28,9 @@ async function createRecord() {
   });
 
 
-  let custo;
-  if (valor <= 400) {
-    console.log("Este item tem baixo custo!");
-    custo = "Baixo";
-  } else {
-    custo = "Alto";
-  }
-
-
-  return axios.post('http://localhost:3000/produtos', { title, body, valor, custo });
-
+  return axios.post('http://localhost:3000/produtos', {title, body, valor });
 }
+
 async function readRecord() {
   const id = await new Promise(resolve => {
     readline.question('Buscar produto: ', resolve);
@@ -59,11 +56,7 @@ async function updateRecord() {
     readline.question('Digite o valor do produto: ', resolve);
   });
 
-  const custo = await new Promise(resolve => {
-    readline.question('Digite se é um produto de custo baixo ou alto: ', resolve);
-  });
-
-  return axios.put(`http://localhost:3000/produtos/${id}`, { title, body, valor, custo });
+  return axios.put(`http://localhost:3000/produtos/${id}`, {title, body, valor });
 }
 
 async function deleteRecord() {
@@ -81,13 +74,9 @@ async function showRecords() {
     });
 }
 
-async function closeTerminal() {
-  await readline.close();
-}
-
 async function showOptions() {
   console.log('Opções:');
-  console.log('1. Adicionar produto');
+  console.log('1. Adicionar ao estoque');
   console.log('2. Buscar produto');
   console.log('3. Atualizar produto');
   console.log('4. Excluir produto');
@@ -161,13 +150,13 @@ async function showOptions() {
         });
       break;
 
-    case '6':
-      console.log('Saindo do terminal...');
-      process.exit();
-      break;
-    default:
-      console.log('Opção inválida, escolha novamente');
-      break;
+      case '6':
+        readline.close();
+        break;
+      default:
+        console.log('Opção inválida, escolha novamente');
+        return showOptions();
+
   }
 
 
