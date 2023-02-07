@@ -12,6 +12,31 @@ app.get('/produtos', (req, res) => {
   res.send(produtos);
 });
 
+app.post('/produtos', (req, res) => {
+  const produto = req.body;
+  controller.addProduto(produto);
+  res.send('Produto adicionado com sucesso!');
+});
+
+app.put('/produtos/:id', (req, res) => {
+  const id = req.params.id;
+  const produto = req.body;
+  controller.updateProduto(id, produto);
+  res.send(`Produto de id ${id} foi atualizado!`);
+});
+
+app.patch('/produtos/:id', (req, res) => {
+  const id = req.params.id;
+  const produto = req.body;
+  controller.updateProduto(id, produto);
+  res.send(`Produto de id ${id} foi atualizado!`);
+});
+
+app.delete('/produtos/:id', (req, res) => {
+  const id = req.params.id;
+  controller.deleteProduto(id);
+  res.send(`Produto de id ${id} foi excluído!`);
+});
 
 const rl = readline.createInterface({
   input: process.stdin,
