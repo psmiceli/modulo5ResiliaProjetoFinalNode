@@ -36,7 +36,7 @@ implementar uma dessas entidades.</h4>
 ![image](https://user-images.githubusercontent.com/56053290/216841605-304112c1-3aa1-481b-8544-ef54a783f10e.png)
 
 <h2>🗺️Mapeamento das Entidades</h2>
-<h3>Produtos:↴</h3>
+<h3>Produto:↴</h3>
 
 - <h4>Monitor</h4>
 - <h4>Placa de vídeo</h4>
@@ -44,31 +44,28 @@ implementar uma dessas entidades.</h4>
 - <h4>Teclado</h4>
 - <h4>Pendrive</h4>  
 
-<h3>Entidade2:↴</h3>
+<h3>Fornecedor:↴</h3>
 
-- 
-- 
-- 
-- 
-- 
+- <h4>Nome</h4>
+- <h4>Endereço</h4>
+- <h4>Telefone</h4>
 
-<h3>Entidade3↴</h3>
+<h3>Cliente↴</h3>
 
-- 
-- 
-- 
-- 
--  
+- <h4>Nome</h4>
+- <h4>CPF</h4>
+- <h4>Endereço</h4>
 
 
 
 <h2>🚀Frameworks utilizados no projeto:</h2><br>
- <h4>⚠️OBS: Modelo MVC não precisa instalar o axios⚠️</h4><br>
+ <h4>⚠️OBS: Modelo MVC não precisa instalar o axios e não usa o json-server⚠️</h4><br>
  ➤Axios<br>➤Json-server
 
 <h2>Como abrir o projeto❓</h2><br>
 <h3>⚙️Você precisará instalar os seguintes pacotes:</h3><br>
 
+➤ express: npm install<br>
 ➤ express: npm install express<br>
 ➤ axios: npm install axios<br>
 ➤ readline: npm install readline<br>
