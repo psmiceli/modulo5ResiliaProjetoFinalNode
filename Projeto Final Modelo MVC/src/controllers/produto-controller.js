@@ -5,8 +5,8 @@ class ProdutoController {
 
     static rotas(app) {
         app.get('/Produto', ProdutoController.listar)
-        app.get('./Produto/id/:id', ProdutoController.buscarPorID)
-        app.post('./Produto', ProdutoController.inserir)
+        app.get('/Produto/id/:id', ProdutoController.buscarPorID)
+        app.post('/Produto', ProdutoController.inserir)
         app.delete('/Produto/id/:id', ProdutoController.deletar)
 
     }
@@ -52,6 +52,9 @@ class ProdutoController {
         });
     }
 
+
 }
 
+
 module.exports = ProdutoController
+

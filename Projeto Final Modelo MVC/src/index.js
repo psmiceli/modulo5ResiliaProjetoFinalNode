@@ -10,6 +10,9 @@ ProdutoController.rotas(app)
 
 //Fornecedor??
 
+const FornecedorController = require('./controllers/fornecedor-controller')
+FornecedorController.rotas(app)
+
 
 //Cliente??
 
