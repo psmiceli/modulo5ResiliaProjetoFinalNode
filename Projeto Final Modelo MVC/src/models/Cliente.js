@@ -3,8 +3,6 @@ class Cliente {
         this.nome = nome
         this.CPF = CPF
         this.endereco = endereco
-
     }
 }
-
 module.exports = Cliente

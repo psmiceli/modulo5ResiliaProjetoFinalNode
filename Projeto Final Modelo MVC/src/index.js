@@ -1,14 +1,15 @@
+// Importando o packages
 const express = require('express')
-const app = express()
-const port = 3000
 
+// instanciando o servidor
+const app = express()
+
+// configurando o servidor para receber requisições com o corpo no formato JSON
 app.use(express.json());
 
+// importando os controllers
 const ProdutoController = require ('./controllers/produto-controller')
 ProdutoController.rotas(app)
-
-
-//Fornecedor??
 
 const FornecedorController = require('./controllers/fornecedor-controller')
 FornecedorController.rotas(app)
@@ -16,9 +17,7 @@ FornecedorController.rotas(app)
 
 //Cliente??
 
-app.listen(port,() =>{
-    console.log(`Example app listening on port ${port}`)
-})
+module.exports = app
 
 
 

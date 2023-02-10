@@ -37,6 +37,11 @@ class FornecedorController {
     }
 
 
+    //ROTA PUT
+
+    
+
+
     //ROTA DELETE
     static deletar(req, res) {
         const fornecedor = bdFornecedor.find(fornecedor => fornecedor.id === req.params.id)

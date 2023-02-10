@@ -5,7 +5,5 @@ class Produto {
         this.valor = valor
         this.id = id
     }
-
 }
-
 module.exports = Produto
