@@ -47,7 +47,7 @@ implementar uma dessas entidades.</h4>
 
 <h3>Fornecedor:↴</h3>
 
-- <h4>id(Primary Key)</h4>
+>- <h4>id(Primary Key)</h4>
 - <h4>Nome</h4>
 - <h4>Endereço</h4>
 - <h4>Telefone</h4>
