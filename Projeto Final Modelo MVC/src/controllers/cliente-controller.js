@@ -1,10 +1,6 @@
 const { bdCliente } = require('../infra/bd.js')
 const Cliente = require('../models/Cliente.js')
 
-
-
-
-
 class ClienteController {
 
     static rotas(app) {
