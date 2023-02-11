@@ -3,7 +3,7 @@ Módulo 5<br>
 Plataforma:NodeJS<br>
 <h3>Tecnologias:</h3><br> 
 
-![image](https://user-images.githubusercontent.com/56053290/216841004-198317c1-cd02-4caa-9f08-40492a54bbde.png)
+![image](https://user-images.githubusercontent.com/56053290/218258400-46b576f3-03c0-4557-b984-189c104e5a51.png)
 ![image](https://user-images.githubusercontent.com/56053290/216841015-6fce6cf2-8369-41af-b715-d3760249c5e9.png)
 ![image](https://user-images.githubusercontent.com/56053290/216841119-36c482d3-5c2a-4bb8-b0c4-21b8a7b74531.png)
 
