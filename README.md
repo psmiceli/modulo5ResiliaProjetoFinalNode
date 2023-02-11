@@ -76,7 +76,7 @@ implementar uma dessas entidades.</h4>
 <h3>⚙️Você precisará instalar os seguintes pacotes:</h3><br>
  
 >npm install<br>
->pm install express<br>
+>npm install express<br>
 
 <h3>➤ execute o projeto em Axios:</h3>
 
