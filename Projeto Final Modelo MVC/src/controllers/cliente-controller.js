@@ -57,7 +57,7 @@ class ClienteController {
         cliente.endereco = req.body.endereco
         
         
-        // res.status(200).send(bdUsuarios)
+        // res.status(200).send(bdCliente)
         res.send(bdCliente)
     }
 
