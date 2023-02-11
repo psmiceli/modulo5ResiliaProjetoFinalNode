@@ -66,7 +66,7 @@ implementar uma dessas entidades.</h4>
 <h2>❔Como abrir o projeto em axios❓</h2><br>
 <h3>⚙️Você precisará instalar os seguintes pacotes:</h3><br>
  
->npm install<br>
+>**npm install**<br>
 >npm install express<br>
 >npm install axios<br>
 >npm install readline<br>
