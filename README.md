@@ -68,24 +68,24 @@ implementar uma dessas entidades.</h4>
 <h2>Como abrir o projeto em axios❓</h2><br>
 <h3>⚙️Você precisará instalar os seguintes pacotes:</h3><br>
  
->➤ express: npm install<br>
->➤ express: npm install express<br>
->➤ axios: npm install axios<br>
->➤ readline: npm install readline<br>
->➤ json-server: npm install -g json-server
+>➤ npm install<br>
+>➤ npm install express<br>
+>➤ npm install axios<br>
+>➤ npm install readline<br>
+>➤ npm install -g json-server
  
  <h2>Como abrir o projeto modelo MVC❓</h2><br>
 <h3>⚙️Você precisará instalar os seguintes pacotes:</h3><br>
  
->➤ express: npm install<br>
->➤ express: npm install express<br>
+>➤ npm install<br>
+>➤ npm install express<br>
 
 <h3>execute o projeto em Axios:</h3>
->➤json-server --watch db.json<br>
->➤node app.js (em outro terminal)
+>➤ json-server --watch db.json<br>
+>➤ node app.js (em outro terminal)
  
  <h3>execute o projeto modelo MVC:</h3>
->➤>>node index.js
+>➤ node index.js
 
  
 
