@@ -81,10 +81,12 @@ implementar uma dessas entidades.</h4>
 >➤ npm install express<br>
 
 <h3>execute o projeto em Axios:</h3>
+
 >➤ json-server --watch db.json<br>
 >➤ node app.js (em outro terminal)
  
  <h3>execute o projeto modelo MVC:</h3>
+ 
 >➤ node index.js
 
  
