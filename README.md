@@ -1,13 +1,13 @@
 # Projeto final do curso Programadores Cariocas.<br> 
 **Módulo 5**<br> 
-Plataforma:NodeJS<br>
-<h3>Tecnologias:</h3><br> 
+**Plataforma:** Node.js<br>
+<h3>**Tecnologias:**</h3><br> 
 
 ![image](https://user-images.githubusercontent.com/56053290/218258400-46b576f3-03c0-4557-b984-189c104e5a51.png)
 ![image](https://user-images.githubusercontent.com/56053290/218258497-d0ddc8bf-a8dc-45b2-aba5-4614700e73d5.png)
 ![image](https://user-images.githubusercontent.com/56053290/218259194-0cbc46a8-6150-4eb7-8cfb-14846262a0c3.png)
 
-<h1>Introdução </h1>
+<h1>Introdução</h1>
 
 <h4>Você e sua equipe foram escalados para desenvolverem
 propostas de APIs que serão o produto mínimo viável de um
@@ -35,8 +35,8 @@ implementar uma dessas entidades.</h4>
 
 ![image](https://user-images.githubusercontent.com/56053290/216841605-304112c1-3aa1-481b-8544-ef54a783f10e.png)
 
-<h2>🗺️Mapeamento das Entidades</h2>
-<h3>Produto:↴</h3>
+<h2>🗺️**Mapeamento das Entidades**</h2>
+<h3>**Produto:**↴</h3>
 
 >- <h4>id(Primary Key)</h4>
 >- <h4>Monitor</h4>
@@ -45,14 +45,14 @@ implementar uma dessas entidades.</h4>
 >- <h4>Teclado</h4>
 >- <h4>Pendrive</h4>  
 
-<h3>Fornecedor:↴</h3>
+<h3>**Fornecedor:**↴</h3>
 
 >- <h4>id(Primary Key)</h4>
 >- <h4>Nome</h4>
 >- <h4>Endereço</h4>
 >- <h4>Telefone</h4>
 
-<h3>Cliente↴</h3>
+<h3>**Cliente**↴</h3>
 
 >- <h4>id(Primary Key)</h4>
 >- <h4>Nome</h4>
@@ -61,7 +61,7 @@ implementar uma dessas entidades.</h4>
 
 
 
-<h2>🚀Frameworks utilizados no projeto:</h2><br>
+<h2>🚀**Frameworks utilizados no projeto:**</h2><br>
  
 <h2>❔Como abrir o projeto em axios❓</h2><br>
 <h3>⚙️Você precisará instalar os seguintes pacotes:</h3><br>
