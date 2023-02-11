@@ -47,7 +47,7 @@ class ClienteController {
 
         if (!cliente) {
             res.send('Cliente não encontrado')
-            // res.status(404).send('Usuario não encontrado')
+            // res.status(404).send('Cliente não encontrado')
             return 
         }
 
