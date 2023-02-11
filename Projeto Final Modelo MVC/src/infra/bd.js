@@ -35,15 +35,15 @@ bdProduto.push(produto5)
 // Fornecedores
 // Cria objetos do tipo Fornecedor e adiciona a lista de Fornecedores
 
-const fornecedor = new Fornecedor('TechLab', 
+const fornecedor = new Fornecedor(1,'TechLab', 
 'Rua Tabajara 203', '22334455')
 bdFornecedor.push(fornecedor)
 
-const fornecedor2 = new Fornecedor('TecShop', 
+const fornecedor2 = new Fornecedor(2,'TecShop', 
 'Rua Nelica 123', '22434475')
 bdFornecedor.push(fornecedor2)
 
-const fornecedor3 = new Fornecedor('VisionTech', 
+const fornecedor3 = new Fornecedor(3,'VisionTech', 
 'Rua Vedigar 405', '623343459')
 bdFornecedor.push(fornecedor3)
 
@@ -51,13 +51,13 @@ bdFornecedor.push(fornecedor3)
 //Cliente
 //Cria objetos do tipo Cliente e adicona a lista de Clientes
 
-const cliente = new Cliente ('Joao', '123', 'Rua Confia')
+const cliente = new Cliente (1,'Joao', '123', 'Rua Confia')
 bdCliente.push(cliente)
 
-const cliente2 = new Cliente ('Thiago', '321', 'Rua No')
+const cliente2 = new Cliente (2,'Thiago', '321', 'Rua No')
 bdCliente.push(cliente2)
 
-const cliente3 = new Cliente ('Paulo', '456', 'Rua Processo')
+const cliente3 = new Cliente (3,'Paulo', '456', 'Rua Processo')
 bdCliente.push(cliente3)
 
 

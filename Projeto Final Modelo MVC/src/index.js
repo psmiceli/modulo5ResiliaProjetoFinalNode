@@ -14,8 +14,10 @@ ProdutoController.rotas(app)
 const FornecedorController = require('./controllers/fornecedor-controller')
 FornecedorController.rotas(app)
 
+const ClienteController = require('./controllers/cliente-controller')
+ClienteController.rotas(app)
 
-//Cliente??
+
 
 module.exports = app
 
