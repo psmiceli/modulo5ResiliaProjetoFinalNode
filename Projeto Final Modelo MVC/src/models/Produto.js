@@ -4,8 +4,6 @@ class Produto {
         this.modelo = modelo
         this.especificacao = especificacao
         this.valor = valor
-     
-        
     }
 }
 module.exports = Produto
