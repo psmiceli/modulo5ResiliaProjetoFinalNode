@@ -63,7 +63,8 @@ implementar uma dessas entidades.</h4>
 
 <h2>🚀Frameworks utilizados no projeto:</h2><br>
  <h4>⚠️OBS: Modelo MVC não precisa instalar o axios e não usa o json-server⚠️</h4><br>
- ➤Axios<br>➤Json-server
+ 
+> ➤Axios<br>➤Json-server
 
 <h2>Como abrir o projeto em axios❓</h2><br>
 <h3>⚙️Você precisará instalar os seguintes pacotes:</h3><br>
