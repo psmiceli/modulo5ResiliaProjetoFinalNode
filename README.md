@@ -63,7 +63,7 @@ implementar uma dessas entidades.</h4>
 
 <h2>🚀Frameworks utilizados no projeto:</h2><br>
  
-<h2>➤Como abrir o projeto em axios❓</h2><br>
+<h2>➤ Como abrir o projeto em axios❓</h2><br>
 <h3>⚙️Você precisará instalar os seguintes pacotes:</h3><br>
  
 >npm install<br>
@@ -78,12 +78,12 @@ implementar uma dessas entidades.</h4>
 >npm install<br>
 >pm install express<br>
 
-<h3>➤execute o projeto em Axios:</h3>
+<h3>➤ execute o projeto em Axios:</h3>
 
 >json-server --watch db.json<br>
 >node app.js (em outro terminal)
  
- <h3>➤execute o projeto modelo MVC:</h3>
+ <h3>➤ execute o projeto modelo MVC:</h3>
  
 >node index.js
 
