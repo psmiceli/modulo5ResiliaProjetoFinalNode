@@ -18,14 +18,4 @@ const ClienteController = require('./controllers/cliente-controller')
 ClienteController.rotas(app)
 
 
-
 module.exports = app
-
-
-
-
-
-
-
-
-
