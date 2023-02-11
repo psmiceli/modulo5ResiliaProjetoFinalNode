@@ -72,7 +72,7 @@ implementar uma dessas entidades.</h4>
 >npm install readline<br>
 >npm install -g json-server
  
- <h2>➤Como abrir o projeto modelo MVC❓</h2><br>
+ <h2>➤ Como abrir o projeto modelo MVC❓</h2><br>
 <h3>⚙️Você precisará instalar os seguintes pacotes:</h3><br>
  
 >npm install<br>
