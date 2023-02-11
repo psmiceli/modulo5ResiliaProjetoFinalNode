@@ -33,7 +33,7 @@ class ProdutoController {
 
     //ROTA POST
     static inserir(req, res) {
-        const produto = new Produto(req.body.modelo, req.body.especificacao, req.body.valor, req.body.id)
+        const produto = new Produto(req.body.id, req.body.modelo, req.body.especificacao, req.body.valor )
         bdProduto.push(produto)
         res.send(bdProduto)
         console.log(req.body)
@@ -51,11 +51,12 @@ class ProdutoController {
             return 
         }
 
+        produto.id = req.body.id
         produto.modelo = req.body.modelo
         produto.especificacao = req.body.especificacao
         produto.valor = req.body.valor
-        produto.id = req.body.id
-
+        
+        
         // res.status(200).send(bdUsuarios)
         res.send(bdProduto)
     }
@@ -74,7 +75,7 @@ class ProdutoController {
         const index = bdProduto.indexOf(produto);
         bdProduto.splice(index, 1);
         res.send({
-            "Mensagem": `O produto do id ${produto.id} foi deletado`
+            "Mensagem": `O produto do id ${produto.id} foi deletado!`
         });
     }
 

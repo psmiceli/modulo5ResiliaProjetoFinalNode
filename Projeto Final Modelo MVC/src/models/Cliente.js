@@ -1,5 +1,6 @@
 class Cliente {
-    constructor(nome, CPF, endereco) {
+    constructor(id, nome, CPF, endereco) {
+        this.id = id
         this.nome = nome
         this.CPF = CPF
         this.endereco = endereco
