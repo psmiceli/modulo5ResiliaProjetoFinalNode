@@ -38,26 +38,26 @@ implementar uma dessas entidades.</h4>
 <h2>🗺️Mapeamento das Entidades</h2>
 <h3>Produto:↴</h3>
 
-- <h4>id(Primary Key)</h4>
-- <h4>Monitor</h4>
-- <h4>Placa de vídeo</h4>
-- <h4>dispositivo de armazenamento
-- <h4>Teclado</h4>
-- <h4>Pendrive</h4>  
+>- <h4>id(Primary Key)</h4>
+>- <h4>Monitor</h4>
+>- <h4>Placa de vídeo</h4>
+>- <h4>dispositivo de armazenamento
+>- <h4>Teclado</h4>
+>- <h4>Pendrive</h4>  
 
 <h3>Fornecedor:↴</h3>
 
 >- <h4>id(Primary Key)</h4>
-- <h4>Nome</h4>
-- <h4>Endereço</h4>
-- <h4>Telefone</h4>
+>- <h4>Nome</h4>
+>- <h4>Endereço</h4>
+>- <h4>Telefone</h4>
 
 <h3>Cliente↴</h3>
 
-- <h4>id(Primary Key)</h4>
-- <h4>Nome</h4>
-- <h4>CPF</h4>
-- <h4>Endereço</h4>
+>- <h4>id(Primary Key)</h4>
+>- <h4>Nome</h4>
+>- <h4>CPF</h4>
+>- <h4>Endereço</h4>
 
 
 
