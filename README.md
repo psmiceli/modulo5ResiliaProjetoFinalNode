@@ -5,7 +5,7 @@ Plataforma:NodeJS<br>
 
 ![image](https://user-images.githubusercontent.com/56053290/218258400-46b576f3-03c0-4557-b984-189c104e5a51.png)
 ![image](https://user-images.githubusercontent.com/56053290/218258497-d0ddc8bf-a8dc-45b2-aba5-4614700e73d5.png)
-![image](https://user-images.githubusercontent.com/56053290/218258788-f12a0141-2706-43e4-838f-96d63b215fb7.png)
+![image](https://user-images.githubusercontent.com/56053290/218259141-1cb676c2-a595-4276-9169-05df671f6ca8.png)
 
 <h1>Introdução </h1>
 
