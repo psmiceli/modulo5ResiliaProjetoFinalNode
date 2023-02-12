@@ -51,6 +51,7 @@ implementar uma dessas entidades.</h4>
 >- <h4>Nome</h4>
 >- <h4>Endereço</h4>
 >- <h4>Telefone</h4>
+>- <h4>CNPJ</h4>
 
 <h3>Cliente↴</h3>
 
