@@ -39,9 +39,9 @@ implementar uma dessas entidades.</h4>
 <h3>Produto:↴</h3>
 
 >- <h4>id(Primary Key)</h4>
->- <h4>Monitor</h4>
->- <h4>Placa de vídeo</h4>
->- <h4>dispositivo de armazenamento
+>- <h4>Modelo</h4>
+>- <h4>Especificação</h4>
+>- <h4>Valor</h4>
 >- <h4>Teclado</h4>
 >- <h4>Pendrive</h4>  
 
