@@ -36,15 +36,15 @@ bdProduto.push(produto5)
 // Cria objetos do tipo Fornecedor e adiciona a lista de Fornecedores
 
 const fornecedor = new Fornecedor('1','TechLab', 
-'Rua Tabajara 203', '22334455')
+'Rua Tabajara 203', '22334455', 'XX. XXX. XXX/0001-01')
 bdFornecedor.push(fornecedor)
 
 const fornecedor2 = new Fornecedor('2','TecShop', 
-'Rua Nelica 123', '22434475')
+'Rua Nelica 123', '22434475', 'XX. XXX. XXX/0001-02')
 bdFornecedor.push(fornecedor2)
 
 const fornecedor3 = new Fornecedor('3','VisionTech', 
-'Rua Vedigar 405', '623343459')
+'Rua Vedigar 405', '623343459', 'XX. XXX. XXX/0001-03')
 bdFornecedor.push(fornecedor3)
 
 

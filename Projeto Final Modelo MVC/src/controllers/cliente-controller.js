@@ -7,7 +7,7 @@ class ClienteController {
         app.get('/Cliente', ClienteController.listar)
         app.get('/Cliente/id/:id', ClienteController.buscarPorID)
         app.post('/Cliente', ClienteController.inserir)
-        app.put('/cliente/id/:id', ClienteController.atualizaCliente)
+        app.put('/Cliente/id/:id', ClienteController.atualizaCliente)
         app.delete('/Cliente/id/:id', ClienteController.deletar)
 
     }

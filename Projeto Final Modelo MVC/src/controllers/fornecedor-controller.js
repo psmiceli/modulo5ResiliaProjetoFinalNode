@@ -31,7 +31,7 @@ class FornecedorController {
 
     //ROTA POST
     static inserir(req, res) {
-        const fornecedor = new Fornecedor(req.body.id, req.body.nome, req.body.endereco, req.body.telefone)
+        const fornecedor = new Fornecedor(req.body.id, req.body.nome, req.body.endereco, req.body.telefone, req.body.cnpj)
         bdFornecedor.push(fornecedor)
         res.send(fornecedor.nome)
     }
