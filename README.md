@@ -42,8 +42,8 @@ implementar uma dessas entidades.</h4>
 >- <h4>Modelo</h4>
 >- <h4>Especificação</h4>
 >- <h4>Valor</h4>
->- <h4>Teclado</h4>
->- <h4>Pendrive</h4>  
+
+
 
 <h3>Fornecedor:↴</h3>
 
