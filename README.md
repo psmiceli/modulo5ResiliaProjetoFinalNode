@@ -63,8 +63,9 @@ implementar uma dessas entidades.</h4>
 
 
 <h2>🚀Frameworks utilizados no projeto:</h2><br>
+Express, Axios.
 ```diff
-+ Express, Axios.
++ teste
 ```
 
 <h2>❔Como abrir o projeto em axios❓</h2><br>
