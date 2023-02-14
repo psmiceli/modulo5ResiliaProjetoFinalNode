@@ -15,7 +15,7 @@ class ClienteController {
     //ROTA GET
     static listar(req, res) {
 
-        res.send(bdCliente)
+        res.status(200).send(bdCliente)
     }
 
     //ROTA GET de BUSCAR
@@ -24,18 +24,18 @@ class ClienteController {
 
         //se for vazio(se não cliente)  
         if (!cliente) {
-            res.send("Cliente não encontrado")
+            res.status(404).send("Cliente não encontrado")
             return
         }
 
-        res.send(cliente)
+        res.status(200).send(cliente)
     }
 
     //ROTA POST
     static inserir(req, res) {
         const cliente = new Cliente(req.body.id, req.body.nome, req.body.CPF, req.body.endereco )
         bdCliente.push(cliente)
-        res.send(bdCliente)
+        res.status(201).send(bdCliente)
         console.log(req.body)
     }
 
@@ -46,7 +46,7 @@ class ClienteController {
         const cliente = bdCliente.find(cliente => cliente.id === req.params.id)
 
         if (!cliente) {
-            res.send('Cliente não encontrado')
+            res.status(404).send('Cliente não encontrado')
             // res.status(404).send('Cliente não encontrado')
             return 
         }
@@ -58,7 +58,7 @@ class ClienteController {
         
         
         // res.status(200).send(bdCliente)
-        res.send(bdCliente)
+        res.status(201).send(bdCliente)
     }
 
 
@@ -68,13 +68,13 @@ class ClienteController {
         const cliente = bdCliente.find(cliente => cliente.id === req.params.id)
 
         if (!cliente) {
-            res.send("Cliente não encontrado")
+            res.status(204).send("Cliente não encontrado")
             return
         }
 
         const index = bdCliente.indexOf(cliente);
         bdCliente.splice(index, 1);
-        res.send({
+        res.status(200).send({
             "Mensagem": `O cliente do id ${cliente.id} foi deletado!`
         });
     }

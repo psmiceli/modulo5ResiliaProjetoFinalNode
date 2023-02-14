@@ -1,9 +1,12 @@
-const { bdProduto } = require('../infra/bd.js')
 const Produto = require('../models/Produto.js')
+
+// Classe importada exclusivamente para fazer o acesso ao Banco de Dados. Para qualquer operação, ela será utilizada
+const ProdutoDAO = require('../DAO/ProdutoDAO')
 
 class ProdutoController {
 
     static rotas(app) {
+        // Rota para os recursos usuario. O parâmtro das rotas aparece na primeira parte entre aspas simples e logo depois são chamados os métodos da classse
         app.get('/Produto', ProdutoController.listar)
         app.get('/Produto/id/:id', ProdutoController.buscarPorID)
         app.post('/Produto', ProdutoController.inserir)
@@ -14,28 +17,38 @@ class ProdutoController {
 
     //ROTA GET
     static listar(req, res) {
-
-        res.send(bdProduto)
+        
+        const produto = ProdutoDAO.listar()
+        res.status(200).send(produto)
+     
     }
 
     //ROTA GET de BUSCAR
     static buscarPorID(req, res) {
-        const produto = bdProduto.find(produto => produto.id === req.params.id)
+        const produto = ProdutoDAO.buscarPorID(req.params.id)
 
         //se for vazio(se não produto)  
         if (!produto) {
-            res.send("Produto não encontrado")
+            res.status(404).send("Produto não encontrado")
             return
         }
 
-        res.send(produto)
+        res.status(200).send(produto)
     }
 
     //ROTA POST
     static inserir(req, res) {
-        const produto = new Produto(req.body.id, req.body.modelo, req.body.especificacao, req.body.valor )
-        bdProduto.push(produto)
-        res.send(bdProduto)
+         // Cria um novo usuario recebendo as informações que vem do corpo da requisição através do req.body 
+        const produto = {
+            id: req.body.id, 
+            modelo: req.body.modelo, 
+            especificacao: req.body.especificacao, 
+            valor: req.body.valor 
+            }
+        ProdutoDAO.inserir(produto)
+
+        res.status(201).send({"Mensagem": "Produto Criado com Sucesso", "Novo Produto ": produto})
+
         console.log(req.body)
     }
 
@@ -43,11 +56,11 @@ class ProdutoController {
     //ROTA PUT
 
     static atualizaProduto(req, res) {
-        const produto = bdProduto.find(produto => produto.id === req.params.id)
+        //Classe ProdutoDAO é chamada com o método de busca pelo id
+        const produto = ProdutoDAO.buscarPorID(req.params.id)
 
         if (!produto) {
-            res.send('Produto não encontrado')
-            // res.status(404).send('Usuario não encontrado')
+            res.status(404).send('Produto não encontrado')
             return 
         }
 
@@ -56,25 +69,24 @@ class ProdutoController {
         produto.especificacao = req.body.especificacao
         produto.valor = req.body.valor
         
+        ProdutoDAO.atualizar(req.params.id, produto)
         
-        // res.status(200).send(bdUsuarios)
-        res.send(bdProduto)
+        res.status(200).send({"Mensagem": "Produto atualizado com Sucesso", "Novo Produto ": produto})
     }
 
 
 
     // ROTA DELETE
     static deletar(req, res) {
-        const produto = bdProduto.find(produto => produto.id === req.params.id)
+
+        const produto = ProdutoDAO.deletar(req.params.id)
 
         if (!produto) {
-            res.send("Produto não encontrado")
+            res.status(404).send("Produto não encontrado")
             return
         }
-
-        const index = bdProduto.indexOf(produto);
-        bdProduto.splice(index, 1);
-        res.send({
+        
+        res.status(204).send({
             "Mensagem": `O produto do id ${produto.id} foi deletado!`
         });
     }
