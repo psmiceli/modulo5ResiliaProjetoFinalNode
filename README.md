@@ -32,9 +32,11 @@ contemplar e cada um de vocês será responsável por
 implementar uma dessas entidades.</h4>
 
 <h2>🖥️Loja de informática(Matriz)</h2><br>
-<h3>Somos uma distribuidora de peças de informática, loja matriz que fornece peças de informática a nossa filiais parceiras.</h3>
-<h3>Temos diversas filais para que o produto chegue mais rápido para você!</h3>
 ![image](https://user-images.githubusercontent.com/56053290/216841605-304112c1-3aa1-481b-8544-ef54a783f10e.png)
+
+<h4>Somos uma distribuidora de peças de informática, loja matriz que fornece peças de informática a nossa filiais parceiras.</h4>
+<h4>Temos diversas filais para que o produto chegue mais rápido para você!</h4>
+
 
 <h2>🗺️Mapeamento das Entidades</h2>
 <h3>Produto:↴</h3>
