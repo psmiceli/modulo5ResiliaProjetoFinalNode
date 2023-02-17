@@ -60,6 +60,20 @@ implementar uma dessas entidades.</h4>
 >- <h4>CPF</h4>
 >- <h4>Endereço</h4>
 
+<h3>Funcionario↴</h3>
+
+>- <h4>id(Primary Key)</h4>
+>- <h4></h4>
+>- <h4></h4>
+>- <h4></h4>
+
+<h3>Lojas↴</h3>
+
+>- <h4>id(Primary Key)</h4>
+>- <h4></h4>
+>- <h4></h4>
+>- <h4></h4>
+
 
 
 <h2>🚀Frameworks utilizados no projeto:</h2><br>
