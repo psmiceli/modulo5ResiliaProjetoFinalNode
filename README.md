@@ -31,9 +31,9 @@ definir quais são as entidades que o projeto precisa
 contemplar e cada um de vocês será responsável por
 implementar uma dessas entidades.</h4>
 
-<h3>🖥️Distribuidora de peças de informática(Matriz)</h3><br>
-<h2>Somos uma matriz que fornece peças de informática.</h2>
-Temos diversas filais para que o produto chegue mais rápido para você!
+<h3>🖥️Loja de informática(Matriz)</h3><br>
+<h2>Somos uma distribuidora de peças de informática, loja matriz que fornece peças de informática a nossa filiais parceiras.</h2>
+<h2>Temos diversas filais para que o produto chegue mais rápido para você!</h2>
 
 ![image](https://user-images.githubusercontent.com/56053290/216841605-304112c1-3aa1-481b-8544-ef54a783f10e.png)
 
