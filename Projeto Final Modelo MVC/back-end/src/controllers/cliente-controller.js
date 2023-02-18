@@ -38,12 +38,12 @@ class ClienteController {
     // POST
     static async inserir(req, res) {
         const cliente = {
-            modelo: req.body.modelo,
-            especificacao: req.body.especificacao,
-            valor: req.body.valor
+            nome: req.body.nome,
+            CPF: req.body.CPF,
+            endereco: req.body.endereco
         }
 
-        if (!cliente || !cliente.modelo || !cliente.especificacao || !cliente.valor) {
+        if (!cliente || !cliente.nome || !cliente.CPF || !cliente.endereco) {
             res.status(400).send("Precisa passar as informações")
             return
         }
@@ -67,11 +67,11 @@ class ClienteController {
             return
         }
 
-        const cliente = new Cliente(req.body.modelo, req.body.especificacao, req.body.valor)
+        const cliente = new Cliente(req.body.nome, req.body.CPF, req.body.endereco)
 
 
 
-        if (!cliente || !cliente.modelo || !cliente.especificacao || !cliente.valor) {
+        if (!cliente || !cliente.nome || !cliente.CPF || !cliente.endereco) {
             res.status(400).send("Precisa passar todas as informações")
             return
         }
