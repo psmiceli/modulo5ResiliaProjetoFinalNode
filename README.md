@@ -35,7 +35,7 @@ implementar uma dessas entidades.</h4>
 
 ![image](https://user-images.githubusercontent.com/56053290/219756907-f034018d-db62-43f1-be71-bd59446486f6.png)
 
-<h4>Somos uma distribuidora de peças de informática(matriz) que fornece produtos a nossa filiais parceiras.</h4>
+<h4>Somos uma distribuidora de peças de informática (matriz) que fornece produtos às nossas filiais parceiras.</h4>
 <h4>Temos diversas filiais para que o produto chegue mais rápido para você!</h4>
 
 
