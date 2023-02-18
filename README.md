@@ -94,10 +94,13 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  
  <h2>❔Como abrir o projeto modelo MVC❓</h2><br>
 <h3>⚙️Você precisará instalar os seguintes pacotes:</h3><br>
- 
+
 >npm install<br>
 >npm install express<br>
 >npm install sqlite3
+
+<h4>Então vamos executar o script que cria nosso banco dentro da pasta '/infra', Seguindo os comando:</h4>
+>node create-and-populate.js
 
 <h3>✔️execute o projeto em Axios:</h3>
 
