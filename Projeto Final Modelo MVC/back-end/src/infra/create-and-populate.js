@@ -41,6 +41,43 @@ function populaTabelaProduto() {
 
 
 
+//==== Clientes
+const CLIENTES_SCHEMA = `
+CREATE TABLE IF NOT EXISTS "CLIENTES" (
+    "ID" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "NOME" varchar(64),
+    "CPF" varchar(64),
+    "ENDERECO" varchar(64)
+  );`;
+
+
+
+  const ADD_CLIENTES_DATA = `
+  INSERT INTO CLIENTES (ID, NOME, CPF, ENDERECO)
+  VALUES 
+      (1, 'CAIO', '0123456789', 'Rua A, n° 50'),
+      (2, 'PABLO', '9876543210', 'Rua B, n° 70'),
+      (3, 'RONALD', '4561237890', 'Rua C, n° 30'),
+      (4, 'JUAN', '3214567890', 'Rua D, n° 15'),
+      (5, 'DANIEL', '0123456987', 'Rua E, n° 45')
+  `
+  
+function criaTabelaClientes() {
+    db.run(CLIENTES_SCHEMA, (error)=> {
+       if (error) console.log("Erro ao criar tabela de clientes");
+    });
+}
+
+
+function populaTabelaClientes() {
+    db.run(ADD_CLIENTES_DATA, (error)=> {
+       if (error) console.log("Erro ao popular tabela de clientes");
+    });
+}
+
+
+
+
 
 // EXEMPLO PARA CRIAR OUTRA ROTA/ENTIDADE NO BANCO
 
@@ -82,6 +119,7 @@ function populaTabelaProduto() {
 db.serialize( ()=> {
     criaTabelaProduto();
     populaTabelaProduto();
-    // criaTabelaTarefas();
-    // populaTabelaTarefas();
+
+    criaTabelaClientes();
+    populaTabelaClientes();
 });
