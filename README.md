@@ -92,7 +92,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 >npm install readline<br>
 >npm install -g json-server
 
-<h3>✔️execute o projeto em Axios:</h3>
+<h3>✔️execute o projeto:</h3>
 
 >json-server --watch db.json<br>
 >node app.js (em outro terminal)
@@ -109,7 +109,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 
 >node create-and-populate.js
 
- <h3>✔️execute o projeto modelo MVC:</h3>
+ <h3>✔️execute o projeto:</h3>
  
 >npm start
  
