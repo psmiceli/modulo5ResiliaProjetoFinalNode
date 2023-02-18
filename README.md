@@ -96,8 +96,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 
 >json-server --watch db.json<br>
 >node app.js (em outro terminal)
-
-<hr>
+<br>
  
  <h2>❔Como abrir o projeto modelo MVC❓</h2><br>
 <h3>⚙️Você precisará instalar os seguintes pacotes:</h3><br>
