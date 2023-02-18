@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import '../css/produto.css'
+import '../css/cliente.css'
 
-function Produto() {
+function Cliente() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [showJson, setShowJson] = useState(false);
 
   useEffect(() => {
-    fetch('http://localhost:3000/produto')
+    fetch('http://localhost:3000/cliente')
       .then(response => response.json())
       .then(data => {
         setData(data);
@@ -21,8 +21,8 @@ function Produto() {
   }
 
   return (
-    <div className='Produto-style'>
-      <h2>Produto</h2>
+    <div className='Cliente-style'>
+      <h2>Cliente</h2>
       {showJson && <pre>{JSON.stringify(data, null, 2)}</pre>}
       <button className='botao' onClick={() => setShowJson(!showJson)}>
         {showJson ? 'Esconder' : 'Mostrar'}
@@ -32,4 +32,4 @@ function Produto() {
 }
 
 
-export default Produto;
+export default Cliente;

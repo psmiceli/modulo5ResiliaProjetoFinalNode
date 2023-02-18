@@ -1,0 +1,17 @@
+.Cliente-style {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.botao {
+	background: #0066A2;
+	color: white;
+	border-style: outset;
+	border-color: #0066A2;
+	height: 50px;
+	width: 100px;
+	font: bold15px arial,sans-serif;
+	text-shadow: none;
+}
