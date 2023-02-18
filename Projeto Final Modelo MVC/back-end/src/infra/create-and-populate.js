@@ -59,7 +59,7 @@ CREATE TABLE IF NOT EXISTS "CLIENTES" (
       (2, 'PABLO', '9876543210', 'Rua B, n° 70'),
       (3, 'RONALD', '4561237890', 'Rua C, n° 30'),
       (4, 'JUAN', '3214567890', 'Rua D, n° 15'),
-      (5, 'DANIEL', '0123456987', 'Rua E, n° 45')
+      (5, 'DANIEL', '0123456987', 'Rua E, n° 45') 
   `
   
 function criaTabelaClientes() {
