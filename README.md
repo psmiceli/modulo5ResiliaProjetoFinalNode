@@ -107,6 +107,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 >npm install sqlite3
 
 <h4>💡Então vamos executar o script que cria nosso banco dentro da pasta '/infra', Seguindo os comando:</h4>
+
 >node create-and-populate.js
 
  <h3>✔️execute o projeto modelo MVC:</h3>
