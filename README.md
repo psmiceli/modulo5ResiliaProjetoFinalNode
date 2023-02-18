@@ -98,6 +98,7 @@ implementar uma dessas entidades.</h4>
  
 >npm install<br>
 >npm install express<br>
+>npm install sqlite3
 
 <h3>✔️execute o projeto em Axios:</h3>
 
