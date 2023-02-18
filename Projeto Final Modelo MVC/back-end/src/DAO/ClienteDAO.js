@@ -7,7 +7,7 @@ class ClienteDAO {
 
 // GET  --  Função ALL - Retorna todas as linhas. No callback existe o argumento ROWS
   static listar() {
-    const query = "SELECT * FROM PRODUTOS";
+    const query = "SELECT * FROM CLIENTES";
     return new Promise((resolve, reject) => {
       db.all(query, (err, rows) => {
         if (err) {
