@@ -105,7 +105,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 >npm install express<br>
 >npm install sqlite3
 
-<h4>💡Então vamos executar o script que cria nosso banco dentro da pasta '/infra', Seguindo os comando:</h4>
+<h4>💡Então vamos executar o script que cria nosso banco dentro da pasta '/infra', Seguindo o comando:</h4>
 
 >node create-and-populate.js
 
