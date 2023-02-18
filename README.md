@@ -91,6 +91,13 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 >npm install axios<br>
 >npm install readline<br>
 >npm install -g json-server
+
+<h3>✔️execute o projeto em Axios:</h3>
+
+>json-server --watch db.json<br>
+>node app.js (em outro terminal)
+
+<hr>
  
  <h2>❔Como abrir o projeto modelo MVC❓</h2><br>
 <h3>⚙️Você precisará instalar os seguintes pacotes:</h3><br>
@@ -99,14 +106,9 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 >npm install express<br>
 >npm install sqlite3
 
-<h4>Então vamos executar o script que cria nosso banco dentro da pasta '/infra', Seguindo os comando:</h4>
+<h4>💡Então vamos executar o script que cria nosso banco dentro da pasta '/infra', Seguindo os comando:</h4>
 >node create-and-populate.js
 
-<h3>✔️execute o projeto em Axios:</h3>
-
->json-server --watch db.json<br>
->node app.js (em outro terminal)
- 
  <h3>✔️execute o projeto modelo MVC:</h3>
  
 >npm start
