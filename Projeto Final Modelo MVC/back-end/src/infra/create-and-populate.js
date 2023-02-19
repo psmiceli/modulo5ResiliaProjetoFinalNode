@@ -76,6 +76,41 @@ function populaTabelaClientes() {
 }
 
 
+//==== Fornecedores
+const FORNECEDORES_SCHEMA = `
+CREATE TABLE IF NOT EXISTS "FORNECEDORES" (
+    "ID" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "NOME" varchar(64),
+    "ENDERECO" varchar(64),
+    "TELEFONE" number(15),
+    "CNPJ" number(11)
+  );`;
+
+
+
+  const ADD_FORNECEDORES_DATA = `
+  INSERT INTO FORNECEDORES (ID, NOME, ENDERECO, TELEFONE, CNPJ)
+  VALUES 
+      (1, 'Samsung', 'Rua F, n° 50', "11999925418" "00.280.273/0002-18" ),
+      (2, 'Apple', 'Rua G, n° 70', "21985693745", "00.623.904/0001-73" ),
+      (3, 'Acer', 'Rua H, n° 30', "11985263147", "86.912.086/0001-44"),
+      (4, 'Motorola', 'Rua I, n° 15', " 11975632984 ", "62.288.584/0001-08"),
+      (5, 'Xiaomi', 'Rua J, n° 45', "11985243719", "29.366.628/0001-97") 
+  `
+  
+function criaTabelaFornecedores() {
+    db.run(FORNECEDORES_SCHEMA, (error)=> {
+       if (error) console.log("Erro ao criar tabela de fornecedores");
+    });
+}
+
+
+function populaTabelaFornecedores() {
+    db.run(ADD_FORNECEDORES_DATA, (error)=> {
+       if (error) console.log("Erro ao popular tabela de fornecedores");
+    });
+}
+
 
 
 
