@@ -41,7 +41,7 @@ class FornecedorController {
             nome: req.body.nome,
             endereco: req.body.endereco,
             telefone: req.body.telefone,
-            cnpj: req.bobdy.cnpj
+            cnpj: req.body.cnpj
         }
 
         if (!fornecedor || !fornecedor.nome || !fornecedor.endereco || !fornecedor.telefone || !fornecedor.cnpj) {
