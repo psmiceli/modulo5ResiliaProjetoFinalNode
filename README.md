@@ -70,7 +70,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 >- <h4></h4>
 >- <h4></h4>
 
-<h3>Lojas↴</h3>
+<h3>Filial↴</h3>
 
 >- <h4>id(Primary Key)</h4>
 >- <h4></h4>
