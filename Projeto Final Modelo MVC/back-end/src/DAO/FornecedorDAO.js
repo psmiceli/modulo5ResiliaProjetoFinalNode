@@ -36,7 +36,7 @@ class FornecedorDAO {
     const query = `INSERT INTO FORNECEDORES (nome, endereco, telefone, cnpj) VALUES (?, ?, ?, ?)`;
 
     return new Promise((resolve, reject) => {
-      db.run(query, [fornecedor.nome, fornecedor.endereco], fornecedor.telefone, fornecedor.cnpj], (err) =>{
+      db.run(query, [fornecedor.nome, fornecedor.endereco, fornecedor.telefone, fornecedor.cnpj], (err) =>{
         if (err){
           reject({
             mensagem: "Erro ao inserir o fornecedor",

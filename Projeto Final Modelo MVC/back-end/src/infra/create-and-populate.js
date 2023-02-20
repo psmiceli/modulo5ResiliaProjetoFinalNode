@@ -91,7 +91,7 @@ CREATE TABLE IF NOT EXISTS "FORNECEDORES" (
   const ADD_FORNECEDORES_DATA = `
   INSERT INTO FORNECEDORES (ID, NOME, ENDERECO, TELEFONE, CNPJ)
   VALUES 
-      (1, 'Samsung', 'Rua F, n° 50', "11999925418" "00.280.273/0002-18" ),
+      (1, 'Samsung', 'Rua F, n° 50', "11999925418","00.280.273/0002-18" ),
       (2, 'Apple', 'Rua G, n° 70', "21985693745", "00.623.904/0001-73" ),
       (3, 'Acer', 'Rua H, n° 30', "11985263147", "86.912.086/0001-44"),
       (4, 'Motorola', 'Rua I, n° 15', " 11975632984 ", "62.288.584/0001-08"),
@@ -157,4 +157,7 @@ db.serialize( ()=> {
 
     criaTabelaClientes();
     populaTabelaClientes();
+
+    criaTabelaFornecedores();
+    populaTabelaFornecedores();
 });
