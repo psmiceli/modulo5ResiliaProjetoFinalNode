@@ -82,7 +82,7 @@ CREATE TABLE IF NOT EXISTS "FORNECEDORES" (
     "ID" INTEGER PRIMARY KEY AUTOINCREMENT,
     "NOME" varchar(64),
     "ENDERECO" varchar(64),
-    "TELEFONE" number(15),
+    "TELEFONE" varchar(15),
     "CNPJ" number(11)
   );`;
 
