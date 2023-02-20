@@ -51,7 +51,7 @@ class FornecedorDAO {
   // PUT  --  
   static atualizar(id, fornecedor){
     const query =
-    "UPDATE FORNECEDORES SET nome = ?, endereco = ?, telefone = ?, cnpj = ?, WHERE id = ?";
+    "UPDATE FORNECEDORES SET nome = ?, endereco = ?, telefone = ?, cnpj = ? WHERE id = ?";
     return new Promise((resolve, reject) =>{
       db.run(
         query,
