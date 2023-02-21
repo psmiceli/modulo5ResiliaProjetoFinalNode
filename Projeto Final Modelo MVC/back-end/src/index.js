@@ -19,11 +19,15 @@ FornecedorController.rotas(app)
 const ClienteController = require('./controllers/cliente-controller')
 ClienteController.rotas(app)
 
+const FilialController = require('./controllers/filial-controller')
+FilialController.rotas(app)
+
+
 // const FuncionarioController = require ('./controllers/funcionario-controller')
 // FuncionarioController.rotas(app)
 
-// const LojaController = require ('./controllers/loja-controller')
-// LojaController.rotas(app)
+// const FilialController = require ('./controllers/filial-controller')
+// FilialController.rotas(app)
 
 
 
