@@ -112,6 +112,42 @@ function populaTabelaFornecedores() {
 }
 
 
+//==== Filial 
+const FILIAL_SCHEMA = `
+CREATE TABLE IF NOT EXISTS "FILIAL" (
+    "ID" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "CIDADE" varchar(64),
+    "RESPONSAVEL" varchar(64),
+  );`;
+
+
+
+  const ADD_FILIAL_DATA = `
+  INSERT INTO FILIAL (ID, CIDADE, RESPONSAVEL)
+  VALUES 
+      (1, 'BONSUCESSO', 'CAIO'),
+      (2, 'PENHA', 'PABLO'),
+      (3, 'CENTRO', 'RONALD'),
+      (4, 'IRAJA', 'JUAN'),
+      (5, 'RAMOS', 'DANIEL') 
+  `
+  
+function criaTabelaFilial() {
+    db.run(FILIAL_SCHEMA, (error)=> {
+       if (error) console.log("Erro ao criar tabela da filial");
+    });
+}
+
+
+function populaTabelaFilial() {
+    db.run(ADD_FILIAL_DATA, (error)=> {
+       if (error) console.log("Erro ao popular tabela da filial");
+    });
+}
+
+
+
+
 
 
 // EXEMPLO PARA CRIAR OUTRA ROTA/ENTIDADE NO BANCO
