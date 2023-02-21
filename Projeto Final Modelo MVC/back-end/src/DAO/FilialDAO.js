@@ -31,7 +31,7 @@ static buscarPorID(id) {
       }
 
 // POST -- 
-static inserir(fornecedor){
+static inserir(filial){
     const query = `INSERT INTO FILIAL (cidade, responsavel,) VALUES (?, ?,)`;
 
     return new Promise((resolve, reject) => {
@@ -47,7 +47,7 @@ static inserir(fornecedor){
     });
   }
 // PUT-- 
-static atualizar(id, cliente){
+static atualizar(id, filial){
     const query =
     "UPDATE FILIAL SET cidade = ?, responsavel = ? WHERE id = ?";
     return new Promise((resolve, reject) =>{
