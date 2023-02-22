@@ -7,12 +7,12 @@ class FilialDAO  {
 // GET -- função all - retorna todas as linhas. No callback existe o argumento ROWS 
    static listar() {
     const query = "SELECT * FROM FILIAL ";
-    return new promise((resolve, reject ) => {
-        db.all(query (err, rows ) => {
+    return new Promise((resolve, reject ) => {
+        db.all(query, (err, rows ) => {
             if (err ) {
-                reject(err );
+                reject(err);
             }
-            resolve(rows );
+            resolve(rows);
         });
     });
    }
@@ -32,7 +32,7 @@ static buscarPorID(id) {
 
 // POST -- 
 static inserir(filial){
-    const query = `INSERT INTO FILIAL (cidade, responsavel,) VALUES (?, ?,)`;
+    const query = `INSERT INTO FILIAL (cidade, responsavel) VALUES (?, ?)`;
 
     return new Promise((resolve, reject) => {
       db.run(query, [filial.cidade, filial.responsavel], (err) =>{

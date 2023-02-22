@@ -70,7 +70,7 @@ class FilialController {
 
 
 
-        if (!filial.cidade || !filial.responsvel) {
+        if (!filial.cidade || !filial.responsavel) {
             res.status(400).send("Precisa passar todas as informações")
             return
         }
