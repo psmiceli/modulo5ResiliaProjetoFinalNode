@@ -125,7 +125,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  
 <hr>
  
-<h2>Resumo</h2>
+<h2>💡Resumo</h2>
 <h1>Server.js e App.js</h1>
  <sup>Aqui estamos importando os pacotes que serão usados(Cors, Express)</sup>
  
