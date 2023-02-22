@@ -26,9 +26,6 @@ FilialController.rotas(app)
 // const FuncionarioController = require ('./controllers/funcionario-controller')
 // FuncionarioController.rotas(app)
 
-// const FilialController = require ('./controllers/filial-controller')
-// FilialController.rotas(app)
-
 
 
 module.exports = app
