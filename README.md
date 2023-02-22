@@ -138,7 +138,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  
  <sup>Aqui estamos importando os pacotes que serão usados(Cors, Express)</sup>
  
-![image](https://user-images.githubusercontent.com/56053290/220695637-e7b2d840-c630-45a1-b6c9-a39985e427e1.png)
+![image](https://user-images.githubusercontent.com/56053290/220719195-701da19c-3da5-48c2-ab90-882ca1e16ec8.png)
 
  <sup>Neste momento instanciamos o servidor, colocando uma constante app para receber o express.</sup>
  <sup>Em seguida configuramos ele para receber requisições com o corpo no formato JSON.</sup><br>
