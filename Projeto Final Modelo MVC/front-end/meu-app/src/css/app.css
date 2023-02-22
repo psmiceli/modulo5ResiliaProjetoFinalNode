@@ -1,0 +1,12 @@
+.titule {
+    margin: auto;
+    text-align: center
+}
+
+.DivPai {
+    border: 30px solid transparent;
+    background-color: rgb(150, 215, 255);
+    margin: auto;
+    float: left;
+    text-align: justify;
+}

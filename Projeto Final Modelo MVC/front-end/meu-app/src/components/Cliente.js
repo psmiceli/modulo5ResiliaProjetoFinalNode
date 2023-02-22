@@ -16,6 +16,20 @@ function Cliente() {
       .catch(error => console.error(error));
   }, []);
 
+  function adicionarCliente(novoCliente) {
+    fetch('http://localhost:3000/cliente', {
+      method: 'POST',
+      headers: {
+        'content-type': 'application/json'
+      },
+      body: JSON.stringify(novoCliente)
+    })
+      .then(response => response.json())
+      .then(data => console.log(data))
+      .catch(error => console.error(error));
+  }
+
+
   if (loading) {
     return <p>Loading data from API...</p>;
   }
@@ -28,6 +42,8 @@ function Cliente() {
         {showJson ? 'Esconder' : 'Mostrar'}
       </button>
     </div>
+
+
   );
 }
 

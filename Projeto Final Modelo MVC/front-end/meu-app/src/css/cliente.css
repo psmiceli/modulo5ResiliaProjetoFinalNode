@@ -1,11 +1,5 @@
-.Cliente-style {
-    float: left;
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-}
-
 .botao {
+
 	background: #0066A2;
 	color: white;
 	border-style: outset;
@@ -14,4 +8,11 @@
 	width: 100px;
 	font: bold15px arial,sans-serif;
 	text-shadow: none;
+}
+
+.botao:hover{
+	cursor:pointer;
+	background:white;
+	color:black;
+	border-radius:10px;
 }
