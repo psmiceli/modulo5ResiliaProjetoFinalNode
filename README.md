@@ -225,7 +225,7 @@ db.js
  **Criação do objeto Database, que será usado para executar operações no banco de dados.**
  
  <sub>caminho `./src/infra/db.js`</sub><br>
- /imagem
+ ![image](https://user-images.githubusercontent.com/56053290/220783242-f1f086d3-f025-44fe-857e-e742e760a4a2.png)
  
  
  
