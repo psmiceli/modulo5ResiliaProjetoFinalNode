@@ -136,7 +136,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  
  **Aqui estamos importando os pacotes que serão usados(Cors, Express)**
  
- <sub>caminho `./src/index.js`</sub>
+ <sub>caminho `./src/index.js`</sub><br>
 ![image](https://user-images.githubusercontent.com/56053290/220719195-701da19c-3da5-48c2-ab90-882ca1e16ec8.png)
 
  **Neste momento instanciamos o servidor, colocando uma constante app para receber o express.**
@@ -155,7 +155,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  
  **Importamos o index.js definindo a constante app para recebe-lo.**
  
- <sub>caminho `./src/server.js`</sub>
+ <sub>caminho `./src/server.js`</sub><br>
 ![image](https://user-images.githubusercontent.com/56053290/220719479-56cc53b6-9749-40ae-9437-d0f5cca6e05f.png)
  
  **Criamos uma constante chamada port recebendo o número 3000.**
