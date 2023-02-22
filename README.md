@@ -137,6 +137,8 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  ```
  </h1>
  
+  <h4>**Vamos para o arquivo index.js primeiro**<h4>
+ 
  **Aqui estamos importando Cors e Express, esses que serão utilizados em nosso projeto.**<br>
  <sub>caminho `./src/index.js`</sub><br>
 ![image](https://user-images.githubusercontent.com/56053290/220719195-701da19c-3da5-48c2-ab90-882ca1e16ec8.png)
@@ -154,6 +156,8 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  **Então exportamos o App para ser usado em outro lugar da nossa aplicação.**<br>
  <sub>caminho `./src/index.js`</sub><br>
  ![image](https://user-images.githubusercontent.com/56053290/220710428-0d01e0e3-2aec-448a-ba07-c6597db5f9e9.png)
+ 
+   <h4>**Agora vamos para o server.js**</h4>
  
  **Importamos o index.js definindo a constante app para recebe-lo.**<br>
  <sub>caminho `./src/server.js`</sub><br>
