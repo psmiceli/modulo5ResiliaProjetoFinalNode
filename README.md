@@ -125,7 +125,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  
 <hr>
  
- <center><h2>Resumo</h2></center>
+<h2>Resumo</h2>
 <h1>Server.js e App.js</h1>
 
 
