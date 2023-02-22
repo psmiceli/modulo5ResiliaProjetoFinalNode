@@ -143,6 +143,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 
  **Neste momento instanciamos o servidor, colocando uma constante app para receber o express.**<br>
  **Em seguida configuramos ele para receber requisições com o corpo no formato JSON, e requisições CORS para que o servidor responda a solicitações de qualquer domínio.**<br>
+ <sub>caminho `./src/index.js`</sub><br>
 ![image](https://user-images.githubusercontent.com/56053290/220719289-c92e0544-d829-4dca-a5b4-6eaf79af0f8d.png)
 
  
@@ -151,6 +152,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  //imagem// 
 
  **Então exportamos o App para ser usado em outro lugar da nossa aplicação.**<br>
+ <sub>caminho `./src/index.js`</sub><br>
  ![image](https://user-images.githubusercontent.com/56053290/220710428-0d01e0e3-2aec-448a-ba07-c6597db5f9e9.png)
  
  **Importamos o index.js definindo a constante app para recebe-lo.**<br>
@@ -158,9 +160,11 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 ![image](https://user-images.githubusercontent.com/56053290/220719479-56cc53b6-9749-40ae-9437-d0f5cca6e05f.png)
  
  **Criamos uma constante chamada port recebendo o número 3000.**<br>
+ <sub>caminho `./src/server.js`</sub><br>
  ![image](https://user-images.githubusercontent.com/56053290/220719835-c71a917f-4c22-4713-9a67-c9bcb7e07867.png)
  
  **Aqui definimos a constante app para receber um evento de escuta abrindo o servidor na URL `http://localhost:` e na porta definida acima**<br>
+ <sub>caminho `./src/server.js`</sub><br>
 ![image](https://user-images.githubusercontent.com/56053290/220719918-8806ff86-0b84-4c72-93a3-51479e7a4475.png)
  
  
