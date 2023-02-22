@@ -122,9 +122,6 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 >`npm run dev`
 
  
- 
-<hr>
- 
 <h2>💡Resumo</h2>
  
  <sub>Primeiramente vamos falar dos arquivos iniciais: </sub>
