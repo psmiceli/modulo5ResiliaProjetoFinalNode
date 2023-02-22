@@ -102,7 +102,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 
 >npm install<br>
 >npm install express<br>
->npm install sqlite3
+>npm install sqlite3<br>
 >npm install cors
 
 <h4>🎲Então vamos executar o script que cria nosso banco dentro da pasta '/infra', Seguindo o comando:</h4>
