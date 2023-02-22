@@ -48,14 +48,14 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 
 
 
-<h3>Fornecedor: ↧</h3>
-
+<h3>Fornecedor: </h3>
+```
 >- <h4>id(Primary Key)</h4>
 >- <h4>Nome</h4>
 >- <h4>Endereço</h4>
 >- <h4>Telefone</h4>
 >- <h4>CNPJ</h4>
-
+```
 <h3>Cliente ↧</h3>
 
 >- <h4>id(Primary Key)</h4>
