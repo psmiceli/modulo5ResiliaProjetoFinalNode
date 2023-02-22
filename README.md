@@ -85,8 +85,8 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 <h2>❔Como abrir o projeto em axios❓</h2><br>
 <h3>⚙️Você precisará instalar os seguintes pacotes:</h3><br>
  
->npm install<br>
->npm install express<br>
+>`npm install`<br>
+>`npm install express`<br>
 >npm install axios<br>
 >npm install readline<br>
 >npm install -g json-server
