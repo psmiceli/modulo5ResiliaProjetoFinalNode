@@ -137,7 +137,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  ```
  </h1>
  
- **Aqui estamos importando os pacotes que serão usados(Cors, Express)**
+ **Aqui estamos importando os pacotes que serão usados(Cors, Express)**<br>
  <sub>caminho `./src/index.js`</sub><br>
 ![image](https://user-images.githubusercontent.com/56053290/220719195-701da19c-3da5-48c2-ab90-882ca1e16ec8.png)
 
@@ -153,7 +153,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  **Então exportamos o App para ser usado em outro lugar da nossa aplicação.**
  ![image](https://user-images.githubusercontent.com/56053290/220710428-0d01e0e3-2aec-448a-ba07-c6597db5f9e9.png)
  
- **Importamos o index.js definindo a constante app para recebe-lo.**
+ **Importamos o index.js definindo a constante app para recebe-lo.**<br>
  <sub>caminho `./src/server.js`</sub><br>
 ![image](https://user-images.githubusercontent.com/56053290/220719479-56cc53b6-9749-40ae-9437-d0f5cca6e05f.png)
  
@@ -175,7 +175,7 @@ db.js
  </h1>
  
  **Começando com o nosso script que cria e popula o nosso banco, o mesmo só deve ser executado uma vez...**<br>
- **Importamos a biblioteca sqlite3 e instanciamos o objeto Database e retornando para interagir com nosso banco.**
+ **Importamos a biblioteca sqlite3 e instanciamos o objeto Database e retornando para interagir com nosso banco.**<br>
  <sub>caminho `./src/infra/create-and-populate.js`</sub><br>
  ![image](https://user-images.githubusercontent.com/56053290/220742091-17c67544-4abe-424d-832b-de59f428fe28.png)
 
