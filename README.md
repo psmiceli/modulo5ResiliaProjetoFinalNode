@@ -127,7 +127,8 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  
 <h2>Resumo</h2>
 <h1>Server.js e App.js</h1>
-<sup>Aqui estamos importando os pacotes que serão usados(Cors, Express)
+ <sup>Aqui estamos importando os pacotes que serão usados(Cors, Express)</sup>
+ 
 ![image](https://user-images.githubusercontent.com/56053290/220695637-e7b2d840-c630-45a1-b6c9-a39985e427e1.png)
 
 
