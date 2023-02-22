@@ -123,7 +123,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 
 `/////////////////////////////////////////////////////////////////////////////////////////`
  
-<h2>💡Resumo</h2>
+<h1>💡Resumo</h1>
  
  <sub>Primeiramente vamos falar dos arquivos iniciais: </sub>
 <h1>
