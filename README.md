@@ -232,7 +232,7 @@ db.js
  **Registro de uma escuta para o evento 'SIGINT' (Ctrl+C). A função anônima passada como segundo argumento é executada quando esse evento é detectado. Ela encerra a conexão com o banco de dados chamando o método close() do objeto db e finaliza o processo com process.exit(0).**
  
  <sub>caminho `./src/infra/db.js`</sub><br>
- //imagem
+ ![image](https://user-images.githubusercontent.com/56053290/220783323-a0f03077-0d2b-4384-a2c2-caace457785a.png)
  
  
 
