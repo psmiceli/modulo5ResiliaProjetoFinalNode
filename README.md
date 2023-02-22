@@ -184,4 +184,8 @@ db.js
  ![image](https://user-images.githubusercontent.com/56053290/220742091-17c67544-4abe-424d-832b-de59f428fe28.png)
  
  **Aqui chamandos uma instrução SQL para criar uma tabela chamada Produtos com os 4 atributos abaixo**<br>
+ <sub>caminho `./src/infra/create-and-populate.js`</sub><br>
+ ![image](https://user-images.githubusercontent.com/56053290/220747104-c4d5740c-5d7f-4e26-beba-24b4b7ebe1a3.png)
+ 
+ **Então fazemos a inserção da nossa tabela passando dados para seus respectivos atributos**<br>
 
