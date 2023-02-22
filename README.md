@@ -136,7 +136,10 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  ```
  
  <h4> 
-  no caminho ```./src/index.js``` 
+  no caminho 
+  ```
+  ./src/index.js
+  ``` 
  </h4>
  
  </h1>
