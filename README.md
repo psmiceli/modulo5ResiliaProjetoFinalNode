@@ -190,5 +190,10 @@ db.js
  **Então fazemos a inserção na nossa tabela passando dados para seus respectivos atributos.**<br>
  <sub>caminho `./src/infra/create-and-populate.js`</sub><br>
  ![image](https://user-images.githubusercontent.com/56053290/220747336-64f52260-4261-4576-84d3-99b7e3bc7e3a.png)
-
+ 
+ **Agora criamos a função responsável pela criação da nossa tabela no banco e passando um callback para verificar se ocorrerá algum erro durante o processo da criação da tabela.**<br>
+**Caso ocorra erro, então retornará o erro no if**
+ 
+ **E então criamos a função responsável pela inserção(popular) da nossa tabela no banco e passando um callback para verificar se ocorrerá algum erro durante o processo da criação da tabela.**<br>
+**Caso ocorra erro, então retornará o erro no if**
 
