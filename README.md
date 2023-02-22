@@ -39,7 +39,7 @@ implementar uma dessas entidades.</h4>
 Temos diversas filiais para que o produto chegue mais rapidamente até você!</h4>
 
 <h2>🗺️Mapeamento das Entidades</h2>
-<h3>Produto:↴</h3>
+<h3>Produto: ↧</h3>
 
 >- <h4>id(Primary Key)</h4>
 >- <h4>Modelo</h4>
@@ -48,7 +48,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 
 
 
-<h3>Fornecedor:↴</h3>
+<h3>Fornecedor: ↧</h3>
 
 >- <h4>id(Primary Key)</h4>
 >- <h4>Nome</h4>
@@ -56,7 +56,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 >- <h4>Telefone</h4>
 >- <h4>CNPJ</h4>
 
-<h3>Cliente↴</h3>
+<h3>Cliente ↧</h3>
 
 >- <h4>id(Primary Key)</h4>
 >- <h4>Nome</h4>
