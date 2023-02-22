@@ -140,8 +140,16 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 
  //imagem//
 
- 
  <sub>Por fim exportamos o App para ser usado em outro lugar da nossa aplicação.</sub>
  
  //imagem//
-
+ 
+ <sub>importamos o index.js definindo a constante app para recebe-lo</sub>
+//imagem//
+ 
+ <sub>Criamos uma constante chamada port recebendo o número 3000.</sub>
+ 
+ //imagem//
+ 
+ //<sub>aqui definimos a constante app para receber um evento de escuta abrindo o servidor na porta escolhida</sub>
+//imagem
