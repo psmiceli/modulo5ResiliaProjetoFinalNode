@@ -216,9 +216,20 @@ db.js
  
 //\\\\///\\\//\\\ **`db.js`**//\\\\///\\\//\\\
 
- Já no arquivo `./src/infra/db.js` importamos a biblioteca sqlite 
- ...............
+ Localizado em `./src/infra/db.js` importamos a biblioteca SQLite, definindo uma constante chamada sqlite3 para recebe-lo
+
+ //imagem//
+ 
+ 
+ 
+ 
+ Registro de uma escuta para o evento 'SIGINT' (Ctrl+C). A função anônima passada como segundo argumento é executada quando esse evento é detectado. Ela encerra a conexão com o banco de dados chamando o método close() do objeto db e finaliza o processo com process.exit(0).
+ 
+ //imagem
  
  
 
+ Exportação do objeto "db" para que possa ser usado em outros lugares de nossa aplicação.
+ 
+//imagem
 
