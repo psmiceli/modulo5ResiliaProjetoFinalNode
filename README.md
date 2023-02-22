@@ -224,31 +224,71 @@ db.js
  
  **Começando com o nosso script que cria e popula o nosso banco, o mesmo só deve ser executado uma vez...**<br>
  **Importamos a biblioteca sqlite3 e instanciamos o objeto Database para retornar e interagir com nosso banco.**<br>
+ 
  <sub>caminho `./src/infra/create-and-populate.js`</sub><br>
- ![image](https://user-images.githubusercontent.com/56053290/220742091-17c67544-4abe-424d-832b-de59f428fe28.png)
+ ```
+ const sqlite3 = require('sqlite3').verbose();
+const db = new sqlite3.Database('./database.db');
+ ```
  
  **Aqui estamos chamando uma instrução SQL para criar uma tabela chamada Produtos com os 4 atributos abaixo.**<br>
+ 
  <sub>caminho `./src/infra/create-and-populate.js`</sub><br>
- ![image](https://user-images.githubusercontent.com/56053290/220747104-c4d5740c-5d7f-4e26-beba-24b4b7ebe1a3.png)
+ ```
+const PRODUTOS_SCHEMA = `
+CREATE TABLE IF NOT EXISTS "PRODUTOS" (
+    "ID" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "MODELO" varchar(64),
+    "ESPECIFICACAO" varchar(64),
+    "VALOR" varchar(64)
+  );`;
+ ```
  
  **Então fazemos a inserção na nossa tabela passando dados para seus respectivos atributos.**<br>
+ 
  <sub>caminho `./src/infra/create-and-populate.js`</sub><br>
- ![image](https://user-images.githubusercontent.com/56053290/220747336-64f52260-4261-4576-84d3-99b7e3bc7e3a.png)
+ ```
+ const ADD_PRODUTOS_DATA = `
+  INSERT INTO PRODUTOS (ID, MODELO, ESPECIFICACAO, VALOR)
+  VALUES 
+      (1, 'Monitor Gamer LG 24 LED Full HD 144Hz', 'HDMI x2, DisplayPort, AMD RADEON FreeSync, LG, 24GL600F, LED, 23.6', 'R$1.170,00'),
+      (2, 'PLACA DE VIDEO MSI RADEON RX 6500 XT', '1 x DisplayPort (v1.4a) 1 x HDMI (suporta 4K@120Hz/8K@60Hz e VRR conforme especificado em HDMI 2.1, LED, 23.6', 'R$1.299,99'),
+      (3, 'SSD Kingston A2000 500GB', 'Velocidade de leitura/escrita de 2500/2000 MB/s, NVMe', 'R$239.99'),
+      (4, 'Teclado Logitech K810', 'Teclado sem fio, retroiluminado, Bluetooth', 'R$139.99'),
+      (5, 'Pendrive', '16GB', 'R$20')
+  `
+ ```
  
  **Agora criamos a função responsável pela criação da nossa tabela no banco e passamos um callback para verificar se ocorrerá algum erro durante o processo de criação da tabela. Caso ocorra um erro, ele será retornado no "if".**<br>
+ 
 <sub>caminho `./src/infra/create-and-populate.js`</sub><br>
-![image](https://user-images.githubusercontent.com/56053290/220749817-49a35e76-b70c-45d0-99dc-55ea355ecef0.png)
+ ```
+function criaTabelaProduto() {
+    db.run(PRODUTOS_SCHEMA, (error)=> {
+       if (error) console.log("Erro ao criar tabela de produtos");
+    });
+}
+ ```
 
- 
  **Então criamos a função responsável pela inserção (popular) da nossa tabela no banco e passamos um callback para verificar se ocorrerá algum erro durante o processo de inserção na tabela. Caso ocorra um erro, ele será retornado no "if".**<br>
+ 
 <sub>caminho `./src/infra/create-and-populate.js`</sub><br>
-![image](https://user-images.githubusercontent.com/56053290/220749968-170cb88f-cf16-4689-a713-3f6425fc2540.png)
+ ```
+function populaTabelaProduto() {
+    db.run(ADD_PRODUTOS_DATA, (error)=> {
+       if (error) console.log("Erro ao popular tabela de produtos");
+    });
+}
+ ```
  
- <br>**Funções para serem executadas em ordem asíncrona, uma após a outra dentro da função serialize(). Ao final da execução dessas funções, o banco de dados será criado e populado com as informações passadas.**<br>
+ <br>**Funções para serem executadas em ordem, uma após a outra dentro da função serialize(). Ao final da execução dessas funções, o banco de dados será criado e populado com as informações passadas.**<br>
+ 
  <sub>caminho `./src/infra/create-and-populate.js`</sub><br>
- ![image](https://user-images.githubusercontent.com/56053290/220751278-cac1abc8-0386-488e-936b-d7c24adb97df.png)
- 
- 
+ ```
+ db.serialize( ()=> {
+    criaTabelaProduto();
+    populaTabelaProduto();
+ ```
  
 //\\\\///\\\//\\\ **`db.js`**//\\\\///\\\//\\\
 
