@@ -152,6 +152,6 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  
  ![image](https://user-images.githubusercontent.com/56053290/220710752-d3202c8d-e9cf-4b84-852d-82674f0ac0df.png)
  
- //<sub>aqui definimos a constante app para receber um evento de escuta abrindo o servidor na porta escolhida</sub>
+ <sub>aqui definimos a constante app para receber um evento de escuta abrindo o servidor na porta escolhida</sub>
  
-//imagem
+![image](https://user-images.githubusercontent.com/56053290/220711042-9fc012ba-ea82-470b-a0e7-a5b1cdc16e0d.png)
