@@ -125,7 +125,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  
 <h1>💡Resumo</h1>
  
- **Primeiramente, vamos falar dos arquivos iniciais...**
+ **1 - Primeiramente, vamos falar dos arquivos iniciais...**
 <h1>
  
  ```
@@ -165,3 +165,12 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  **Aqui definimos a constante app para receber um evento de escuta abrindo o servidor na URL `http://localhost:` e na porta definida acima**
  
 ![image](https://user-images.githubusercontent.com/56053290/220719918-8806ff86-0b84-4c72-93a3-51479e7a4475.png)
+ 
+ 
+ 
+ **2 - Agora vamos falar dos arquivos que cria o nosso banco...**
+ 
+ ```
+create-and-populate.js
+db.js
+ ```
