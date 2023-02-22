@@ -136,10 +136,9 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  index.js
  ```
  </h1>
- 
-  <h4>
-   Vamos para o arquivo `index.js` primeiro...
-   <h4>
+   
+  //\\\\///\\\//\\\ **`index.js`**//\\\\///\\\//\\\
+   
  
  **Aqui estamos importando Cors e Express, esses que serão utilizados em nosso projeto.**<br>
  <sub>caminho `./src/index.js`</sub><br>
@@ -159,9 +158,8 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  <sub>caminho `./src/index.js`</sub><br>
  ![image](https://user-images.githubusercontent.com/56053290/220710428-0d01e0e3-2aec-448a-ba07-c6597db5f9e9.png)
  
-   <h4>
-    Agora vamos para o `server.js`...
-    </h4>
+  
+  //\\\\///\\\//\\\  **`server.js`...** //\\\\///\\\//\\\
  
  **Importamos o index.js definindo a constante app para recebe-lo.**<br>
  <sub>caminho `./src/server.js`</sub><br>
