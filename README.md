@@ -201,6 +201,9 @@ db.js
 ![image](https://user-images.githubusercontent.com/56053290/220749968-170cb88f-cf16-4689-a713-3f6425fc2540.png)
  
  <br>Funções para serem executadas em ordem asíncrona, uma após a outra dentro da função serialize(). Ao final da execução dessas funções, o banco de dados será criado e populado com as informações passadas.<br>
+ <sub>caminho `./src/infra/create-and-populate.js`</sub><br>
+ ![image](https://user-images.githubusercontent.com/56053290/220751278-cac1abc8-0386-488e-936b-d7c24adb97df.png)
+
  
  
 
