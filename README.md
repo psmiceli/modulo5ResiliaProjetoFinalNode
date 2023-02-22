@@ -139,8 +139,8 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  <sub>caminho `./src/index.js`</sub><br>
 ![image](https://user-images.githubusercontent.com/56053290/220719195-701da19c-3da5-48c2-ab90-882ca1e16ec8.png)
 
- **Neste momento instanciamos o servidor, colocando uma constante app para receber o express.**
- **Em seguida configuramos ele para receber requisições com o corpo no formato JSON e requisições CORS para que o servidor responda a solicitações de qualquer domínio**<br>
+ **Neste momento instanciamos o servidor, colocando uma constante app para receber o express.**<br>
+ **Em seguida configuramos ele para receber requisições com o corpo no formato JSON,<br> e requisições CORS para que o servidor responda a solicitações de qualquer domínio**<br>
  
 ![image](https://user-images.githubusercontent.com/56053290/220719289-c92e0544-d829-4dca-a5b4-6eaf79af0f8d.png)
 
