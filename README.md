@@ -134,10 +134,10 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  Server.js
  index.js
  ```
+ </h1>
  
  no caminho `./src/index.js`, vamos explicar passo a passo: 
  
- </h1>
  <sup>Aqui estamos importando os pacotes que serão usados(Cors, Express)</sup>
  
 ![image](https://user-images.githubusercontent.com/56053290/220695637-e7b2d840-c630-45a1-b6c9-a39985e427e1.png)
