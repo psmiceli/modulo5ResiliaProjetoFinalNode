@@ -73,9 +73,8 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 <h3>Filial↴</h3>
 
 >- <h4>id(Primary Key)</h4>
->- <h4></h4>
->- <h4></h4>
->- <h4></h4>
+>- <h4>Cidade</h4>
+>- <h4>Responsável</h4>
 
 
 
