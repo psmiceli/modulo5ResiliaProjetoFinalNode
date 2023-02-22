@@ -179,3 +179,5 @@ create-and-populate.js
 db.js
  ```
  </h1>
+ 
+ ./src/infra/create-and-populate.js
