@@ -159,7 +159,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  ![image](https://user-images.githubusercontent.com/56053290/220710428-0d01e0e3-2aec-448a-ba07-c6597db5f9e9.png)
  
   
-  //\\\\///\\\//\\\  **`server.js`...** //\\\\///\\\//\\\
+  //\\\\///\\\//\\\  **`server.js`** //\\\\///\\\//\\\
  
  **Importamos o index.js definindo a constante app para recebe-lo.**<br>
  <sub>caminho `./src/server.js`</sub><br>
