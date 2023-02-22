@@ -125,7 +125,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  
 <h1>💡Resumo</h1>
  
- <h2>**1 - Primeiramente, vamos falar dos arquivos iniciais...**</h2>
+ <h3>1 - Primeiramente, vamos falar dos arquivos iniciais...</h3>
 <h1>
  
  ```
@@ -168,7 +168,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  
  
  
- **2 - Agora, vamos falar dos arquivos que estruturam e criam o nosso banco de dados...**
+ <h3>2 - Agora, vamos falar dos arquivos que estruturam e criam o nosso banco de dados...</h3>
  <h1>
   
  ```
