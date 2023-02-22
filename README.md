@@ -168,9 +168,10 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  
  
  
- **2 - Agora vamos falar dos arquivos que cria o nosso banco...**
- 
+ **2 - Agora, vamos falar dos arquivos que estruturam e criam o nosso banco de dados...**
+ <h1>
  ```
 create-and-populate.js
 db.js
  ```
+ </h1>
