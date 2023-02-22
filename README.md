@@ -150,7 +150,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 
  //imagem// 
 
- **Então exportamos o App para ser usado em outro lugar da nossa aplicação.**
+ **Então exportamos o App para ser usado em outro lugar da nossa aplicação.**<br>
  ![image](https://user-images.githubusercontent.com/56053290/220710428-0d01e0e3-2aec-448a-ba07-c6597db5f9e9.png)
  
  **Importamos o index.js definindo a constante app para recebe-lo.**<br>
