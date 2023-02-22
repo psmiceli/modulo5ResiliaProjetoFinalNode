@@ -192,7 +192,7 @@ db.js
  ![image](https://user-images.githubusercontent.com/56053290/220747336-64f52260-4261-4576-84d3-99b7e3bc7e3a.png)
  
  **Agora criamos a função responsável pela criação da nossa tabela no banco e passando um callback para verificar se ocorrerá algum erro durante o processo da criação da tabela.**<br>
-**Caso ocorra erro, então retornará o erro no if**
+**Caso ocorra erro, então retornará o erro no if**<br>
 <sub>caminho `./src/infra/create-and-populate.js`</sub><br>
 ![image](https://user-images.githubusercontent.com/56053290/220749817-49a35e76-b70c-45d0-99dc-55ea355ecef0.png)
 
