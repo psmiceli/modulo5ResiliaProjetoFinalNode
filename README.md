@@ -188,17 +188,27 @@ FuncionarioController.rotas(app)
   //\\\\///\\\//\\\  **`server.js`** //\\\\///\\\//\\\
  
  **Importamos o index.js definindo a constante app para recebe-lo.**<br>
+ 
  <sub>caminho `./src/server.js`</sub><br>
-![image](https://user-images.githubusercontent.com/56053290/220719479-56cc53b6-9749-40ae-9437-d0f5cca6e05f.png)
+ ```
+const app = require('./index.js')
+ ```
  
  **Criamos uma constante chamada port recebendo o número 3000.**<br>
+ 
  <sub>caminho `./src/server.js`</sub><br>
- ![image](https://user-images.githubusercontent.com/56053290/220719835-c71a917f-4c22-4713-9a67-c9bcb7e07867.png)
+ ```
+ const port = 3000
+ ```
  
  **Aqui definimos a constante app para receber um evento de escuta abrindo o servidor na URL `http://localhost:` e na porta definida acima**<br>
- <sub>caminho `./src/server.js`</sub><br>
-![image](https://user-images.githubusercontent.com/56053290/220719918-8806ff86-0b84-4c72-93a3-51479e7a4475.png)
  
+ <sub>caminho `./src/server.js`</sub><br>
+ ```
+app.listen(port, () => {
+    console.log(`Server rodando em http://localhost:${port}/`)
+})
+ ```
  
  
  <h3>2 - Agora, vamos falar dos arquivos que estruturam e criam o nosso banco de dados...</h3>
