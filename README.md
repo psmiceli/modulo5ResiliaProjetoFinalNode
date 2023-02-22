@@ -221,6 +221,10 @@ db.js
  //imagem//
  
  
+ Criação do objeto Database, que será usado para executar operações no banco de dados.
+ 
+ /imagem
+ 
  
  
  Registro de uma escuta para o evento 'SIGINT' (Ctrl+C). A função anônima passada como segundo argumento é executada quando esse evento é detectado. Ela encerra a conexão com o banco de dados chamando o método close() do objeto db e finaliza o processo com process.exit(0).
