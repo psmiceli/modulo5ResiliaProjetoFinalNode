@@ -66,9 +66,12 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 <h3>Funcionario ↧</h3>
 
 >- <h4>id(Primary Key)</h4>
->- <h4></h4>
->- <h4></h4>
->- <h4></h4>
+>- <h4>Nome</h4>
+>- <h4>CPF</h4>
+>- <h4>Cargo</h4>
+>- <h4>Setor</h4>
+>- <h4>Funcao</h4>
+
 
 <h3>Filial ↧</h3>
 
