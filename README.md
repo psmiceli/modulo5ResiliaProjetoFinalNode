@@ -135,7 +135,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  index.js
  ```
  
- no caminho ``./src/index.js`` 
+ no caminho `./src/index.js`, vamos explicar passo a passo: 
  
  </h1>
  <sup>Aqui estamos importando os pacotes que serão usados(Cors, Express)</sup>
