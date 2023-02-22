@@ -126,6 +126,8 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 <hr>
  
 <h2>💡Resumo</h2>
+ 
+ <sub>Primeiramente vamos falar dos arquivos iniciais: </sub>
 <h1>
  
  ```
@@ -133,6 +135,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  index.js
  ```
  
+ no caminho ```./src/index.js``` 
  </h1>
  <sup>Aqui estamos importando os pacotes que serão usados(Cors, Express)</sup>
  
