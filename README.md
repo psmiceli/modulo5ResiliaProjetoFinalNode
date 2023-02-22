@@ -182,6 +182,8 @@ db.js
  
  **Começando com o nosso script que cria e popula o nosso banco, o mesmo só deve ser executado uma vez...**
  
+ **Importamos a biblioteca sqlite3 e instanciamos o objeto Database e retornando para interagir com nosso banco.**
+ 
  <sub>caminho `./src/infra/create-and-populate.js`</sub><br>
  ![image](https://user-images.githubusercontent.com/56053290/220742091-17c67544-4abe-424d-832b-de59f428fe28.png)
 
