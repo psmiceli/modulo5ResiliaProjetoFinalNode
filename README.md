@@ -138,7 +138,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  
   <sup>Agora vamos importar os controllers.</sup>
 
- //imagem//
+ //imagem// (esperando o Pablo terminar)
 
  <sub>Por fim exportamos o App para ser usado em outro lugar da nossa aplicação.</sub>
  
