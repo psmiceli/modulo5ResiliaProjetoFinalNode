@@ -133,7 +133,6 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 
  <sup>Nesse momento instanciamos o servidor, colocando uma constante app para receber o express.</sup>
  <sup>Em seguida configuramos ele para receber requisições com o corpo no formato JSON</sup>
- 
 ![image](https://user-images.githubusercontent.com/56053290/220696194-83514823-f6c8-44e1-bdec-26aa9051a54b.png)
 
 
