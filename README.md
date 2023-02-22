@@ -137,7 +137,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  ```
  </h1>
  
- **Aqui estamos importando os pacotes que serão usados(Cors, Express)**<br>
+ **Aqui estamos importando Cors e Express, esses que serão utilizados em nosso projeto.**<br>
  <sub>caminho `./src/index.js`</sub><br>
 ![image](https://user-images.githubusercontent.com/56053290/220719195-701da19c-3da5-48c2-ab90-882ca1e16ec8.png)
 
