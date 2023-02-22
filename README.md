@@ -136,7 +136,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  ```
  </h1>
  
- no arquivo localizado no caminho `./src/index.js` ... 
+ no arquivo localizado no caminho `./src/index.js`:
  
  <sup>Aqui estamos importando os pacotes que serão usados(Cors, Express)</sup>
  
@@ -155,7 +155,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  
  ![image](https://user-images.githubusercontent.com/56053290/220710428-0d01e0e3-2aec-448a-ba07-c6597db5f9e9.png)
  
- no arquivo localizado no caminho `./src/server.js` ... 
+ no arquivo localizado no caminho `./src/server.js`:
  
  <sub>importamos o index.js definindo a constante app para recebe-lo</sub>
  
