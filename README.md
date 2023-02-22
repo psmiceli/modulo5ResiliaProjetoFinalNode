@@ -121,7 +121,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  
 >`npm run dev`
 
-`/////////////////////////////////////////////////////////////////////////////////////////`
+<br>
  
 <h1>💡Resumo</h1>
  
