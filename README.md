@@ -141,8 +141,8 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
    
  
  **Aqui estamos importando Cors e Express, esses que serão utilizados em nosso projeto.**<br>
- <sub>caminho `./src/index.js`</sub><br>
  
+ <sub>caminho `./src/index.js`</sub><br>
 ```
 const express = require('express')
 const cors = require('cors')
@@ -150,8 +150,8 @@ const cors = require('cors')
  
  **Neste momento instanciamos o servidor, colocando uma constante app para receber o express.**<br>
  **Em seguida configuramos ele para receber requisições com o corpo no formato JSON, e requisições CORS para que o servidor responda a solicitações de qualquer domínio.**<br>
- <sub>caminho `./src/index.js`</sub><br>
  
+ <sub>caminho `./src/index.js`</sub><br>
 ```
 const app = express()
 app.use(express.json());
@@ -160,6 +160,7 @@ app.use(cors())
  
   **Agora vamos importar os controllers.**
  
+ <sub>caminho `./src/index.js`</sub><br>
  ```
 const ProdutoController = require ('./controllers/produto-controller')
 ProdutoController.rotas(app)
@@ -178,8 +179,8 @@ FuncionarioController.rotas(app)
  ```
 
  **Então exportamos o App para ser usado em outro lugar da nossa aplicação.**<br>
- <sub>caminho `./src/index.js`</sub><br>
  
+ <sub>caminho `./src/index.js`</sub><br>
  ```
  module.exports = app
  ```
