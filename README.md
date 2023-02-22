@@ -155,7 +155,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  
  no arquivo localizado no caminho `./src/server.js`:
  
- <sub>importamos o index.js definindo a constante app para recebe-lo</sub>
+ <sub>Importamos o index.js definindo a constante app para recebe-lo</sub>
  
 ![image](https://user-images.githubusercontent.com/56053290/220710581-7db6eab4-6127-4345-8e08-b0cb70c52667.png)
  
@@ -163,6 +163,6 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  
  ![image](https://user-images.githubusercontent.com/56053290/220710752-d3202c8d-e9cf-4b84-852d-82674f0ac0df.png)
  
- <sub>aqui definimos a constante app para receber um evento de escuta abrindo o servidor na URL `http://localhost:` e na porta escolhida</sub>
+ <sub>Aqui definimos a constante app para receber um evento de escuta abrindo o servidor na URL `http://localhost:` e na porta escolhida</sub>
  
 ![image](https://user-images.githubusercontent.com/56053290/220711042-9fc012ba-ea82-470b-a0e7-a5b1cdc16e0d.png)
