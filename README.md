@@ -110,12 +110,12 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 >node create-and-populate.js
 
  <h3>✔️execute o projeto:</h3>
- obs: definito no package.json ("start": "node ./src/server.js")
+ <sup>OBS: definito no package.json ("start": "node ./src/server.js")<sup>
  
 >npm start
  
 <h3>⚙️Como dev:</h3>
- obs: definito no package.json ("start": "node ./src/server.js")
+<sup>OBS: definito no package.json ("start": "node ./src/server.js")<sup>
  
 >npm run dev
 
