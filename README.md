@@ -151,12 +151,31 @@ const cors = require('cors')
  **Neste momento instanciamos o servidor, colocando uma constante app para receber o express.**<br>
  **Em seguida configuramos ele para receber requisições com o corpo no formato JSON, e requisições CORS para que o servidor responda a solicitações de qualquer domínio.**<br>
  <sub>caminho `./src/index.js`</sub><br>
-![image](https://user-images.githubusercontent.com/56053290/220719289-c92e0544-d829-4dca-a5b4-6eaf79af0f8d.png)
-
+ 
+```
+const app = express()
+app.use(express.json());
+app.use(cors())
+```
  
   **Agora vamos importar os controllers.**
+ 
+ ```
+const ProdutoController = require ('./controllers/produto-controller')
+ProdutoController.rotas(app)
 
- //imagem// 
+const FornecedorController = require('./controllers/fornecedor-controller')
+FornecedorController.rotas(app)
+
+const ClienteController = require('./controllers/cliente-controller')
+ClienteController.rotas(app)
+
+const FilialController = require('./controllers/filial-controller')
+FilialController.rotas(app)
+
+const FuncionarioController = require ('./controllers/funcionario-controller')
+FuncionarioController.rotas(app)
+ ```
 
  **Então exportamos o App para ser usado em outro lugar da nossa aplicação.**<br>
  <sub>caminho `./src/index.js`</sub><br>
