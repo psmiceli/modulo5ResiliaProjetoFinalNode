@@ -125,7 +125,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  
 <h1>💡Resumo</h1>
  
- **1 - Primeiramente, vamos falar dos arquivos iniciais...**
+ <h2>**1 - Primeiramente, vamos falar dos arquivos iniciais...**</h2>
 <h1>
  
  ```
