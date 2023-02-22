@@ -188,4 +188,7 @@ db.js
  ![image](https://user-images.githubusercontent.com/56053290/220747104-c4d5740c-5d7f-4e26-beba-24b4b7ebe1a3.png)
  
  **Então fazemos a inserção da nossa tabela passando dados para seus respectivos atributos**<br>
+ <sub>caminho `./src/infra/create-and-populate.js`</sub><br>
+ ![image](https://user-images.githubusercontent.com/56053290/220747336-64f52260-4261-4576-84d3-99b7e3bc7e3a.png)
+
 
