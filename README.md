@@ -327,7 +327,7 @@ const db = new sqlite3.Database('./src/infra/database.db');
 );
  ```
  
- **Exportação do objeto "db" para que possa ser usado em outros lugares de nossa aplicação.**<br>
+ **E por fim a exportação do objeto "db" para que possa ser usado em outros lugares de nossa aplicação.**<br>
  
  <sub>caminho `./src/infra/db.js`</sub><br>
  ```
