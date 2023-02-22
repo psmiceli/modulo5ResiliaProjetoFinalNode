@@ -157,7 +157,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  
  <sub>Importamos o index.js definindo a constante app para recebe-lo</sub>
  
-![image](https://user-images.githubusercontent.com/56053290/220710581-7db6eab4-6127-4345-8e08-b0cb70c52667.png)
+![image](https://user-images.githubusercontent.com/56053290/220719479-56cc53b6-9749-40ae-9437-d0f5cca6e05f.png)
  
  <sub>Criamos uma constante chamada port recebendo o número 3000.</sub>
  
