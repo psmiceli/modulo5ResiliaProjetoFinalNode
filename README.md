@@ -216,24 +216,28 @@ db.js
  
 //\\\\///\\\//\\\ **`db.js`**//\\\\///\\\//\\\
 
- Localizado em `./src/infra/db.js` importamos a biblioteca SQLite, definindo uma constante chamada sqlite3 para recebe-lo
-
- //imagem//
+ **Localizado em `./src/infra/db.js` importamos a biblioteca SQLite, definindo uma constante chamada sqlite3 para recebe-lo**<br>
+ 
+<sub>caminho `./src/infra/db.js`</sub><br>
+![image](https://user-images.githubusercontent.com/56053290/220783011-3c0d0b87-02ab-4521-b6f0-e20758b67593.png)
  
  
- Criação do objeto Database, que será usado para executar operações no banco de dados.
+ **Criação do objeto Database, que será usado para executar operações no banco de dados.**
  
+ <sub>caminho `./src/infra/db.js`</sub><br>
  /imagem
  
  
  
- Registro de uma escuta para o evento 'SIGINT' (Ctrl+C). A função anônima passada como segundo argumento é executada quando esse evento é detectado. Ela encerra a conexão com o banco de dados chamando o método close() do objeto db e finaliza o processo com process.exit(0).
+ **Registro de uma escuta para o evento 'SIGINT' (Ctrl+C). A função anônima passada como segundo argumento é executada quando esse evento é detectado. Ela encerra a conexão com o banco de dados chamando o método close() do objeto db e finaliza o processo com process.exit(0).**
  
+ <sub>caminho `./src/infra/db.js`</sub><br>
  //imagem
  
  
 
  Exportação do objeto "db" para que possa ser usado em outros lugares de nossa aplicação.
  
+ <sub>caminho `./src/infra/db.js`</sub><br>
 //imagem
 
