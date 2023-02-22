@@ -184,6 +184,8 @@ db.js
  ```
  </h1>
  
+  //\\\\///\\\//\\\ **`create-and-populate.js`**//\\\\///\\\//\\\
+ 
  **Começando com o nosso script que cria e popula o nosso banco, o mesmo só deve ser executado uma vez...**<br>
  **Importamos a biblioteca sqlite3 e instanciamos o objeto Database para retornar e interagir com nosso banco.**<br>
  <sub>caminho `./src/infra/create-and-populate.js`</sub><br>
@@ -212,9 +214,9 @@ db.js
  
  
  
- **Agora vamos falar do arquivo db.js localizado no caminho `./src/infra/db.js`**
+//\\\\///\\\//\\\ **`db.js`**//\\\\///\\\//\\\
 
- 
+ Já no arquivo `./src/infra/db.js` importamos a biblioteca sqlite 
  ...............
  
  
