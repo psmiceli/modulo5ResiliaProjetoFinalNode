@@ -179,8 +179,10 @@ FuncionarioController.rotas(app)
 
  **Então exportamos o App para ser usado em outro lugar da nossa aplicação.**<br>
  <sub>caminho `./src/index.js`</sub><br>
- ![image](https://user-images.githubusercontent.com/56053290/220710428-0d01e0e3-2aec-448a-ba07-c6597db5f9e9.png)
  
+ ```
+ module.exports = app
+ ```
   
   //\\\\///\\\//\\\  **`server.js`** //\\\\///\\\//\\\
  
