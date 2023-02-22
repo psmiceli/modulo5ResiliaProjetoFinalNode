@@ -117,7 +117,7 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
  
 <h3>⚙️Como dev:</h3>
  
-<sup>OBS: definito no package.json ("start": "node ./src/server.js")<sup>
+<sup>OBS: definito no package.json ("dev": "nodemon ./src/server.js")<sup>
  
 >npm run dev
 
