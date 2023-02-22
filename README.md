@@ -103,16 +103,19 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 >npm install<br>
 >npm install express<br>
 >npm install sqlite3
+>npm install cors
 
 <h4>💡Então vamos executar o script que cria nosso banco dentro da pasta '/infra', Seguindo o comando:</h4>
 
 >node create-and-populate.js
 
  <h3>✔️execute o projeto:</h3>
+ obs: definito no package.json ("start": "node ./src/server.js")
  
 >npm start
  
 <h3>⚙️Como dev:</h3>
+ obs: definito no package.json ("start": "node ./src/server.js")
  
 >npm run dev
 
