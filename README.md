@@ -196,7 +196,7 @@ db.js
 ![image](https://user-images.githubusercontent.com/56053290/220749817-49a35e76-b70c-45d0-99dc-55ea355ecef0.png)
 
  
- **Então criamos a função responsável pela inserção (popular) da nossa tabela no banco e passamos um callback para verificar se ocorrerá algum erro durante o processo de inserção na tabela. Caso ocorra um erro, ele será retornado no "if".**<br>**<br>
+ **Então criamos a função responsável pela inserção (popular) da nossa tabela no banco e passamos um callback para verificar se ocorrerá algum erro durante o processo de inserção na tabela. Caso ocorra um erro, ele será retornado no "if".**<br>
 <sub>caminho `./src/infra/create-and-populate.js`</sub><br>
 ![image](https://user-images.githubusercontent.com/56053290/220749968-170cb88f-cf16-4689-a713-3f6425fc2540.png)
 
