@@ -198,5 +198,8 @@ db.js
 
  
  **E então criamos a função responsável pela inserção(popular) da nossa tabela no banco e passando um callback para verificar se ocorrerá algum erro durante o processo da criação da tabela.**<br>
-**Caso ocorra erro, então retornará o erro no if**
+**Caso ocorra erro, então retornará o erro no if**<br>
+<sub>caminho `./src/infra/create-and-populate.js`</sub><br>
+![image](https://user-images.githubusercontent.com/56053290/220749968-170cb88f-cf16-4689-a713-3f6425fc2540.png)
+
 
