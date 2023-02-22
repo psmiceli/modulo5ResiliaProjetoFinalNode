@@ -145,11 +145,11 @@ Temos diversas filiais para que o produto chegue mais rapidamente até você!</h
 ![image](https://user-images.githubusercontent.com/56053290/220719289-c92e0544-d829-4dca-a5b4-6eaf79af0f8d.png)
 
  
-  <sup>***Agora vamos importar os controllers.***</sup>
+  ***<sup>Agora vamos importar os controllers.</sup>***
 
  //imagem// (esperando o Pablo terminar)
 
- <sub>***Por fim exportamos o App para ser usado em outro lugar da nossa aplicação.***</sub>
+ ***<sub>Por fim exportamos o App para ser usado em outro lugar da nossa aplicação.</sub>***
  
  ![image](https://user-images.githubusercontent.com/56053290/220710428-0d01e0e3-2aec-448a-ba07-c6597db5f9e9.png)
  
