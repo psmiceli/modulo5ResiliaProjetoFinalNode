@@ -1,3 +1,4 @@
+//importando um módulo chamado "index.js" 
 const app = require('./index.js')
 
 // escolhendo a porta em que o servidor será aberto

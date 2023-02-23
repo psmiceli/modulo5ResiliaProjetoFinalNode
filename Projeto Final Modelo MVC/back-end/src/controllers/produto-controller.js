@@ -14,9 +14,7 @@ class ProdutoController {
 
     // GET para listar
     static async listar(req, res) {
-
         const produto = await ProdutoDAO.listar()
-
         res.status(200).send(produto)
 
     }
@@ -68,8 +66,6 @@ class ProdutoController {
         }
 
         const produto = new Produto(req.body.modelo, req.body.especificacao, req.body.valor)
-
-
 
         if (!produto || !produto.modelo || !produto.especificacao || !produto.valor) {
             res.status(400).send("Precisa passar todas as informações")

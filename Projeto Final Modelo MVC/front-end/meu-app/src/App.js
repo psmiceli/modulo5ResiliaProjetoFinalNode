@@ -3,18 +3,20 @@ import ReactDOM from 'react-dom';
 import Produtos from './components/Produto';
 import Clientes from './components/Cliente';
 import Fornecedores from './components/Fornecedor';
-import Filiais from './components/Filial';
+import Vendas from './components/Venda';
+import Vendedor from './components/Vendedor';
 import './css/app.css'
 
 
 function App() {
   return (
-    <div>
-      <h1>Banco de Dados</h1>
+    <div className='DivPai'>
+      <h1 className='titule'>Banco de Dados</h1>
       <Produtos />
       <Fornecedores />
       <Clientes/>
-      <Filiais />
+      <Vendas />
+      <Vendedor />
     </div>
 
    

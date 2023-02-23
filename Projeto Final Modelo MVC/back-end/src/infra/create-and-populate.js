@@ -112,41 +112,74 @@ function populaTabelaFornecedores() {
 }
 
 
-//==== Filial 
-const FILIAL_SCHEMA = `
-CREATE TABLE IF NOT EXISTS "FILIAL" (
+
+//=== Vendedor
+const VENDEDOR_SCHEMA = `
+CREATE TABLE IF NOT EXISTS "VENDEDOR"(
     "ID" INTEGER PRIMARY KEY AUTOINCREMENT,
-    "CIDADE" varchar(64),
-    "RESPONSAVEL" varchar(64)
-  );`;
+    "NOME" varchar(64),
+    "CPF" varchar(11)
+);`;
 
+const ADD_VENDEDOR_DATA = `
+INSERT INTO VENDEDOR (ID, NOME, CPF)
+VALUES
+       (1, 'ROBERTO', '5321'),
+       (2, 'ZIDANE', '9321'), 
+       (3, 'RONALDINHO', '7321'), 
+       (4, 'KAKA', '0321'), 
+       (5, 'OBINA', '4321') 
+`
 
+function criaTabelaVendedor(){
+    db.run(VENDEDOR_SCHEMA, (error) =>{
+        if (error) console.log("Erro ao criar tabela do vendedor");
+    });
+}
 
-  const ADD_FILIAL_DATA = `
-  INSERT INTO FILIAL (ID, CIDADE, RESPONSAVEL)
-  VALUES 
-      (1, 'BONSUCESSO', 'CAIO'),
-      (2, 'PENHA', 'PABLO'),
-      (3, 'CENTRO', 'RONALD'),
-      (4, 'IRAJA', 'JUAN'),
-      (5, 'RAMOS', 'DANIEL') 
-  `
-  
-function criaTabelaFilial() {
-    db.run(FILIAL_SCHEMA, (error)=> {
-       if (error) console.log("Erro ao criar tabela da filial");
+function populaTabelaVendedor(){
+    db.run(ADD_VENDEDOR_DATA, (error)=> {
+        if (error) console.log("Erro ao criar tabela do vendedor");
     });
 }
 
 
-function populaTabelaFilial() {
-    db.run(ADD_FILIAL_DATA, (error)=> {
-       if (error) console.log("Erro ao popular tabela da filial");
+
+//=== Venda
+const VENDAS_SCHEMA = `
+CREATE TABLE IF NOT EXISTS "VENDAS"(
+    ID INTEGER PRIMARY KEY AUTOINCREMENT,
+    DATA Date,
+    QUANTIDADE int(64),
+    ID_PRODUTO INTEGER,
+    ID_CLIENTE INTEGER,
+    ID_VENDEDOR INTEGER,
+    FOREIGN KEY(ID_PRODUTO) REFERENCES PRODUTOS(ID),
+    FOREIGN KEY(ID_CLIENTE) REFERENCES CLIENTES(ID),
+    FOREIGN KEY(ID_VENDEDOR) REFERENCES VENDEDOR(ID)
+);`;
+
+const ADD_VENDAS_DATA = `
+INSERT INTO VENDAS (ID, DATA, QUANTIDADE, ID_PRODUTO, ID_CLIENTE, ID_VENDEDOR)
+VALUES
+        (1, '2023-02-1', 10, 1, 1, 1),
+        (2, '2023-02-1', 5, 2, 2, 2),
+        (3, '2023-02-1', 2, 3, 3, 3),
+        (4, '2023-02-1', 9, 4, 4, 4),
+        (5, '2023-02-1', 4, 5, 5, 5)
+`;
+
+function criaTabelaVenda(){
+    db.run(VENDAS_SCHEMA, (error) =>{
+        if (error) console.log("Erro ao criar tabela do venda");
     });
 }
 
-
-
+function populaTabelaVenda(){
+    db.run(ADD_VENDAS_DATA, (error)=> {
+        if (error) console.log("Erro ao popular tabela do venda");
+    });
+}
 
 
 
@@ -197,6 +230,13 @@ db.serialize( ()=> {
     criaTabelaFornecedores();
     populaTabelaFornecedores();
 
-    criaTabelaFilial();
-    populaTabelaFilial();
+    criaTabelaVendedor();
+    populaTabelaVendedor();
+
+    criaTabelaVenda();
+    populaTabelaVenda();
 });
+
+
+
+

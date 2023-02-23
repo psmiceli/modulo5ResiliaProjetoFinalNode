@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors())
 
 // importando os controllers
-const ProdutoController = require ('./controllers/produto-controller')
+const ProdutoController = require('./controllers/produto-controller')
 ProdutoController.rotas(app)
 
 const FornecedorController = require('./controllers/fornecedor-controller')
@@ -19,13 +19,11 @@ FornecedorController.rotas(app)
 const ClienteController = require('./controllers/cliente-controller')
 ClienteController.rotas(app)
 
-const FilialController = require('./controllers/filial-controller')
-FilialController.rotas(app)
+const VendedorController = require('./controllers/vendedor-controller')
+VendedorController.rotas(app)
 
-
-// const FuncionarioController = require ('./controllers/funcionario-controller')
-// FuncionarioController.rotas(app)
-
+const VendaController = require('./controllers/venda-controller')
+VendaController.rotas(app)
 
 
 module.exports = app
