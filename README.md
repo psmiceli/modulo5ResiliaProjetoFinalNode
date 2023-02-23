@@ -53,7 +53,7 @@ CNPJ
 <h3>vendedor ↧</h3>
 
 ```
-Matricula (CHAVE PRIMÁRIA)
+ID (CHAVE PRIMÁRIA)
 Nome
 CPF
 ```
@@ -73,7 +73,7 @@ Endereco
 ID_venda (CHAVE PRIMÁRIA)
 ID_produto (CHAVE ESTRANGEIRA)
 ID_cliente (CHAVE ESTRANGEIRA)
-MAT_vendedor (CHAVE ESTRANGEIRA)
+ID_vendedor (CHAVE ESTRANGEIRA)
 data date
 quantidade int
 ```
