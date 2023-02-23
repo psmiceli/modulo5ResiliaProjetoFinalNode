@@ -178,11 +178,11 @@ FornecedorController.rotas(app)
 const ClienteController = require('./controllers/cliente-controller')
 ClienteController.rotas(app)
 
-const FilialController = require('./controllers/filial-controller')
-FilialController.rotas(app)
+const VendedorController = require ('./controllers/vendedor-controller')
+VendedorController.rotas(app)
 
-const FuncionarioController = require ('./controllers/funcionario-controller')
-FuncionarioController.rotas(app)
+const VendaController = require('./controllers/venda-controller')
+VendaController.rotas(app)
  ```
 
  **Então exportamos o App para ser usado em outro lugar da nossa aplicação.**<br>
