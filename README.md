@@ -38,7 +38,8 @@ implementar uma dessas entidades.</h4>
 <h4>Somos uma loja de peças de informática, com inúmeros fornecedores e vendedores.<br> 
 Garantimos variedade, preço e o melhor atendimento por cada um de nossos vendedores</h4>
 
-**Nosso diagrama**
+<h1>Diagrama</h1>
+<h4>Nosso diagrama com os relacionamentos das entidades e seus atributos</h4>
 ![image](https://user-images.githubusercontent.com/56053290/220823027-f4116e6a-2989-4420-b5fb-b762414faa0f.png)
 
 <h2>🗺️Mapeamento das Entidades</h2>
