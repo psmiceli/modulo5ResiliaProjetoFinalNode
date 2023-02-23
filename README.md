@@ -319,7 +319,7 @@ const db = new sqlite3.Database('./src/infra/database.db');
   ```
  
  
- **18 - Aqui nessa parte, ele chama o process.on para encerrar a conexão com o banco, e o método close() do objeto db. <br>
+ **18 - Aqui nessa parte, ele chama o process.on para encerrar a conexão com o banco, e o método close() do objeto db.** <br>
  **Logo após finalizando com process.exit(0).**<br>
  
  <sub>caminho `./src/infra/db.js`</sub><br>
