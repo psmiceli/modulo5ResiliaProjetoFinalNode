@@ -31,60 +31,60 @@ definir quais são as entidades que o projeto precisa
 contemplar e cada um de vocês será responsável por
 implementar uma dessas entidades.</h4>
 
-<h2>🖥️Loja de informática(Matriz)</h2><br>
+<h2>🖥️Loja de informática</h2><br>
 
 ![image](https://user-images.githubusercontent.com/56053290/219756907-f034018d-db62-43f1-be71-bd59446486f6.png)
 
-<h4>Somos uma distribuidora de peças de informática (matriz) que fornece produtos às nossas filiais parceiras.<br> 
-Temos diversas filiais para que o produto chegue mais rapidamente até você!</h4>
+<h4>Somos uma loja de peças de informática, com inúmeros fornecedores e vendedores.<br> 
+Garantimos variedade, preço e o melhor atendimento por cada um de nossos vendedores</h4>
 
 <h2>🗺️Mapeamento das Entidades</h2>
-<h3>Produto: ↧</h3>
+
+<h3>Fornecedor ↧</h3>
 
 ```
-id(Primary Key)
-Modelo
-Especificação
-Valor
-```
-
-
-<h3>Fornecedor: </h3>
-
-```
-id(Primary Key)
+ID (CHAVE PRIMÁRIA)
 Nome
 Endereco
-Telefone
 CNPJ
+
+```
+
+<h3>vendedor ↧</h3>
+
+```
+Matricula (CHAVE PRIMÁRIA)
+Nome
+CPF
+```
+
+<h3>Produto ↧</h3>
+
+```
+id (CHAVE PRIMÁRIA)
+Nome
+CPF
+Endereco
+```
+
+<h3>Venda ↧</h3>
+
+```
+ID_venda (CHAVE PRIMÁRIA)
+ID_produto (CHAVE ESTRANGEIRA)
+ID_cliente (CHAVE ESTRANGEIRA)
+MAT_vendedor (CHAVE ESTRANGEIRA)
+data date
+quantidade int
 ```
 
 <h3>Cliente ↧</h3>
 
 ```
-id(Primary Key)
+ID (CHAVE PRIMÁRIA)
 Nome
 CPF
 Endereco
-```
-
-<h3>Funcionario ↧</h3>
-
-```
-id(Primary Key)
-Nome
-CPF
-Cargo
-Setor
-Funcao
-```
-
-<h3>Filial ↧</h3>
-
-```
-id(Primary Key)
-Cidade</h4>
-Responsável
 ```
 
 
