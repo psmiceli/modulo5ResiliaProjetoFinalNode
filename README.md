@@ -152,7 +152,7 @@ Endereco
   //\\\\///\\\//\\\ **`index.js`**//\\\\///\\\//\\\
    
  
- **Aqui estamos importando Cors e Express, esses que serão utilizados em nosso projeto.**<br>
+ **2 - Aqui estamos importando Cors e Express, esses que serão utilizados em nosso projeto.**<br>
  
  <sub>caminho `./src/index.js`</sub><br>
 ```
@@ -160,7 +160,7 @@ const express = require('express')
 const cors = require('cors')
 ```
  
- **Neste momento instanciamos o servidor, colocando uma constante app para receber o express.**<br>
+ **3 - Neste momento instanciamos o servidor, colocando uma constante app para receber o express.**<br>
  **Em seguida configuramos ele para receber requisições com o corpo no formato JSON, e requisições CORS para que o servidor responda a solicitações de qualquer domínio.**<br>
  
  <sub>caminho `./src/index.js`</sub><br>
@@ -170,7 +170,7 @@ app.use(express.json());
 app.use(cors())
 ```
  
-  **Agora vamos importar os controllers.**
+  **4 - Agora vamos importar os controllers.**
  
  <sub>caminho `./src/index.js`</sub><br>
  ```
@@ -190,7 +190,7 @@ const VendaController = require('./controllers/venda-controller')
 VendaController.rotas(app)
  ```
 
- **Então exportamos o App para ser usado em outro lugar da nossa aplicação.**<br>
+ **5 - Então exportamos o App para ser usado em outro lugar da nossa aplicação.**<br>
  
  <sub>caminho `./src/index.js`</sub><br>
  ```
@@ -199,21 +199,21 @@ VendaController.rotas(app)
   
   //\\\\///\\\//\\\  **`server.js`** //\\\\///\\\//\\\
  
- **Importamos o index.js definindo a constante app para recebe-lo.**<br>
+ **6 - Importamos o index.js definindo a constante app para recebe-lo.**<br>
  
  <sub>caminho `./src/server.js`</sub><br>
  ```
 const app = require('./index.js')
  ```
  
- **Criamos uma constante chamada port recebendo o número 3000.**<br>
+ **7 - Criamos uma constante chamada port recebendo o número 3000.**<br>
  
  <sub>caminho `./src/server.js`</sub><br>
  ```
  const port = 3000
  ```
  
- **Aqui definimos a constante app para receber um evento de escuta abrindo o servidor na URL `http://localhost:` e na porta definida acima**<br>
+ **8 - Aqui definimos a constante app para receber um evento de escuta abrindo o servidor na URL `http://localhost:` e na porta definida acima**<br>
  
  <sub>caminho `./src/server.js`</sub><br>
  ```
@@ -223,7 +223,7 @@ app.listen(port, () => {
  ```
  
  
- <h3>2 - Agora, vamos falar dos arquivos que estruturam e criam o nosso banco de dados...</h3>
+ <h3>9 - Agora, vamos falar dos arquivos que estruturam e criam o nosso banco de dados...</h3>
  <h1>
   
  ```
@@ -234,7 +234,7 @@ db.js
  
   //\\\\///\\\//\\\ **`create-and-populate.js`**//\\\\///\\\//\\\
  
- **Começando com o nosso script que cria e popula o nosso banco, o mesmo só deve ser executado uma vez...**<br>
+ **10 - Começando com o nosso script que cria e popula o nosso banco, o mesmo só deve ser executado uma vez...**<br>
  **Importamos a biblioteca sqlite3 e instanciamos o objeto Database para retornar e interagir com nosso banco.**<br>
  
  <sub>caminho `./src/infra/create-and-populate.js`</sub><br>
@@ -243,7 +243,7 @@ db.js
 const db = new sqlite3.Database('./database.db');
  ```
  
- **Aqui estamos chamando uma instrução SQL para criar uma tabela chamada Produtos com os 4 atributos abaixo.**<br>
+ **11 - Aqui estamos chamando uma instrução SQL para criar uma tabela chamada Produtos com os 4 atributos abaixo.**<br>
  
  <sub>caminho `./src/infra/create-and-populate.js`</sub><br>
  ```
@@ -256,7 +256,7 @@ CREATE TABLE IF NOT EXISTS "PRODUTOS" (
   );`;
  ```
  
- **Então fazemos a inserção na nossa tabela passando dados para seus respectivos atributos.**<br>
+ **12 - Então fazemos a inserção na nossa tabela passando dados para seus respectivos atributos.**<br>
  
  <sub>caminho `./src/infra/create-and-populate.js`</sub><br>
  ```
@@ -271,7 +271,7 @@ CREATE TABLE IF NOT EXISTS "PRODUTOS" (
   `
  ```
  
- **Agora criamos a função responsável pela criação da nossa tabela no banco e passamos um callback para verificar se ocorrerá algum erro durante o processo de criação da tabela. Caso ocorra um erro, ele será retornado no "if".**<br>
+ **13 - Agora criamos a função responsável pela criação da nossa tabela no banco e passamos um callback para verificar se ocorrerá algum erro durante o processo de criação da tabela. Caso ocorra um erro, ele será retornado no "if".**<br>
  
 <sub>caminho `./src/infra/create-and-populate.js`</sub><br>
  ```
@@ -282,7 +282,7 @@ function criaTabelaProduto() {
 }
  ```
 
- **Então criamos a função responsável pela inserção (popular) da nossa tabela no banco e passamos um callback para verificar se ocorrerá algum erro durante o processo de inserção na tabela. Caso ocorra um erro, ele será retornado no "if".**<br>
+ **14 - Então criamos a função responsável pela inserção (popular) da nossa tabela no banco e passamos um callback para verificar se ocorrerá algum erro durante o processo de inserção na tabela. Caso ocorra um erro, ele será retornado no "if".**<br>
  
 <sub>caminho `./src/infra/create-and-populate.js`</sub><br>
  ```
@@ -293,7 +293,7 @@ function populaTabelaProduto() {
 }
  ```
  
- <br>**Funções para serem executadas em ordem, uma após a outra dentro da função serialize(). Ao final da execução dessas funções, o banco de dados será criado e populado com as informações passadas.**<br>
+ <br>**15 - Funções para serem executadas em ordem, uma após a outra dentro da função serialize(). Ao final da execução dessas funções, o banco de dados será criado e populado com as informações passadas.**<br>
  
  <sub>caminho `./src/infra/create-and-populate.js`</sub><br>
  ```
@@ -304,14 +304,14 @@ function populaTabelaProduto() {
  
 //\\\\///\\\//\\\ **`db.js`**//\\\\///\\\//\\\
 
- **Localizado em `./src/infra/db.js` importamos a biblioteca SQLite, definindo uma constante chamada sqlite3 para recebe-lo**<br>
+ **16 - Localizado em `./src/infra/db.js` importamos a biblioteca SQLite, definindo uma constante chamada sqlite3 para recebe-lo**<br>
  
 <sub>caminho `./src/infra/db.js`</sub><br>
  ```
 const sqlite3 = require('sqlite3').verbose();
  ```
  
- **Criação do objeto Database, que será usado para executar operações no banco de dados.**<br>
+ **17 - Criação do objeto Database, que será usado para executar operações no banco de dados.**<br>
  
  <sub>caminho `./src/infra/db.js`</sub><br>
   ```
@@ -319,7 +319,7 @@ const db = new sqlite3.Database('./src/infra/database.db');
   ```
  
  
- **Aqui nessa parte, ele chama o process.on para encerrar a conexão com o banco, e o método close() do objeto db. <br>
+ **18 - Aqui nessa parte, ele chama o process.on para encerrar a conexão com o banco, e o método close() do objeto db. <br>
  **Logo após finalizando com process.exit(0).**<br>
  
  <sub>caminho `./src/infra/db.js`</sub><br>
@@ -332,7 +332,7 @@ const db = new sqlite3.Database('./src/infra/database.db');
 );
  ```
  
- **E por fim a exportação do objeto "db" para que possa ser usado em outros lugares de nossa aplicação.**<br>
+ **19 - E por fim a exportação do objeto "db" para que possa ser usado em outros lugares de nossa aplicação.**<br>
  
  <sub>caminho `./src/infra/db.js`</sub><br>
  ```
